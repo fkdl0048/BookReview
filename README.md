@@ -37,4 +37,11 @@ Duration: 2023-02-11 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EA%B2%8C%EC%9E%84+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A1%9C+%EC%82%B0%EB%8B%A4%EB%8A%94+%EA%B2%83%22+)  
 Review:  
 
+### Effective C#
+
+<img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
+
+Duration: 2023-02-20 ~   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22EffectiveC%23%22+)  
+Review:  
 
