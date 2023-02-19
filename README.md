@@ -45,3 +45,12 @@ Duration: 2023-02-20 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22EffectiveC%23%22+)  
 Review:  
 
+### 객체지향 사고 프로세스
+
+<img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
+
+Duration: 2023-02-22 ~   
+History: 
+Review:  
+
+
