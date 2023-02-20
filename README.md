@@ -19,7 +19,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview01/)
 
 Duration: 2023-01-06 ~   
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22GoodCodeBadCode%22)  
-Review: 
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_GoodCode,BadCode/)
 
 ### The Programmer's Brain(프로그래머의 뇌)
 
