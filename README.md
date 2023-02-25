@@ -42,7 +42,7 @@ Review:
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
 
 Duration: 2023-02-20 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22EffectiveC%23%22+)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22Effective+C%23%22+)  
 Review:  
 
 ### 객체지향 사고 프로세스
