@@ -45,7 +45,7 @@ Duration: 2023-02-20 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22Effective+C%23%22+)  
 Review:  
 
-### 객체지향 사고 프로세스
+### 객체지향 사고 프로세스 (The Object-Oriented Thought Process)
 
 <img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
 
@@ -53,4 +53,25 @@ Duration: 2023-02-22 ~
 History: 
 Review:  
 
+### 객체지향의 사실과 오해  
 
+<img src="https://user-images.githubusercontent.com/84510455/221360258-c680912d-8c08-4114-86ce-a28942c0fad8.png" width="200" height="250"/>
+
+Duration: 2023-02-25 ~   
+History: 
+Review:  
+
+### 게임 프로그래밍 패턴  
+
+<img src="https://user-images.githubusercontent.com/84510455/221360312-72ed471c-bee0-4c7f-86ce-4edf707e0b5b.png" width="200" height="250"/>
+
+Duration: 2022-08-15 ~   
+Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
+
+### 실리콘밸리의 팀장들 (Radical_Candor)
+
+<img src="https://user-images.githubusercontent.com/84510455/221360407-6c94189e-d0b1-42dd-a07e-56a206889a76.png" width="200" height="250"/>
+
+Duration: 2023-02-25 ~   
+History: 
+Review:  
