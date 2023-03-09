@@ -50,7 +50,7 @@ Review:
 <img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
 
 Duration: 2023-02-22 ~   
-History: 
+History:  
 Review:  
 
 ### 객체지향의 사실과 오해  
@@ -58,7 +58,7 @@ Review:
 <img src="https://user-images.githubusercontent.com/84510455/221360258-c680912d-8c08-4114-86ce-a28942c0fad8.png" width="200" height="250"/>
 
 Duration: 2023-02-25 ~   
-History: 
+History:  
 Review:  
 
 ### 게임 프로그래밍 패턴  
@@ -73,5 +73,5 @@ Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 <img src="https://user-images.githubusercontent.com/84510455/221360407-6c94189e-d0b1-42dd-a07e-56a206889a76.png" width="200" height="250"/>
 
 Duration: 2023-02-25 ~   
-History: 
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98+%ED%8C%80%EC%9E%A5%EB%93%A4%22+)  
 Review:  
