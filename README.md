@@ -49,8 +49,8 @@ Review:
 
 <img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
 
-Duration: 2023-02-22 ~   
-History:  
+Duration: 2023-03-13 ~   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22The+Object-Oriented+Thought+Process%22)
 Review:  
 
 ### 객체지향의 사실과 오해  
