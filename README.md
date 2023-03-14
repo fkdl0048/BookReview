@@ -50,15 +50,15 @@ Review:
 <img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
 
 Duration: 2023-03-13 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22The+Object-Oriented+Thought+Process%22)
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22The+Object-Oriented+Thought+Process%22)  
 Review:  
 
 ### 객체지향의 사실과 오해  
 
 <img src="https://user-images.githubusercontent.com/84510455/221360258-c680912d-8c08-4114-86ce-a28942c0fad8.png" width="200" height="250"/>
 
-Duration: 2023-02-25 ~   
-History:  
+Duration: 2023-03-14 ~   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98+%EC%82%AC%EC%8B%A4%EA%B3%BC+%EC%98%A4%ED%95%B4%22)  
 Review:  
 
 ### 게임 프로그래밍 패턴  
