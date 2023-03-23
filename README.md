@@ -21,6 +21,14 @@ Duration: 2023-01-06 ~ 2023-02-20
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22GoodCodeBadCode%22)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_GoodCode,BadCode/)
 
+### 실리콘밸리의 팀장들 (Radical_Candor)
+
+<img src="https://user-images.githubusercontent.com/84510455/221360407-6c94189e-d0b1-42dd-a07e-56a206889a76.png" width="200" height="250"/>
+
+Duration: 2023-02-25 ~ 2023-03-22  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98+%ED%8C%80%EC%9E%A5%EB%93%A4%22+)   
+Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)
+
 ### The Programmer's Brain(프로그래머의 뇌)
 
 <img src="https://user-images.githubusercontent.com/84510455/218236765-3048bb40-cb84-48f5-a56e-c8480938b0f1.png" width="200" height="250"/>
@@ -68,10 +76,4 @@ Review:
 Duration: 2022-08-15 ~   
 Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 
-### 실리콘밸리의 팀장들 (Radical_Candor)
 
-<img src="https://user-images.githubusercontent.com/84510455/221360407-6c94189e-d0b1-42dd-a07e-56a206889a76.png" width="200" height="250"/>
-
-Duration: 2023-02-25 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98+%ED%8C%80%EC%9E%A5%EB%93%A4%22+)  
-Review:  
