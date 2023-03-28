@@ -29,6 +29,14 @@ Duration: 2023-02-25 ~ 2023-03-22
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98+%ED%8C%80%EC%9E%A5%EB%93%A4%22+)   
 Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)
 
+### 소프트웨어 아키텍처101
+
+<img src="https://user-images.githubusercontent.com/84510455/227919695-c8fd167e-2a81-4634-8d4d-e8776ad6ba36.png" width="200" height="250"/>
+
+Duration: 2023-03-27 ~   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+label%3A%22Fundamentals+of+Software+Architecture%22+)  
+Review:  
+
 ### The Programmer's Brain(프로그래머의 뇌)
 
 <img src="https://user-images.githubusercontent.com/84510455/218236765-3048bb40-cb84-48f5-a56e-c8480938b0f1.png" width="200" height="250"/>
@@ -75,5 +83,6 @@ Review:
 
 Duration: 2022-08-15 ~   
 Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
+
 
 
