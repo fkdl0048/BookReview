@@ -29,6 +29,14 @@ Duration: 2023-02-25 ~ 2023-03-22
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98+%ED%8C%80%EC%9E%A5%EB%93%A4%22+)   
 Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)
 
+### 게임 프로그래머로 산다는 것
+
+<img src="https://user-images.githubusercontent.com/84510455/218236823-43ba5ebb-bdf1-4499-a66b-6d89e537f596.png" width="200" height="250"/>
+
+Duration: 2023-02-11 ~ 2023-05-09  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EA%B2%8C%EC%9E%84+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A1%9C+%EC%82%B0%EB%8B%A4%EB%8A%94+%EA%B2%83%22+)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Game_Programmer/)  
+
 ### 소프트웨어 아키텍처101
 
 <img src="https://user-images.githubusercontent.com/84510455/227919695-c8fd167e-2a81-4634-8d4d-e8776ad6ba36.png" width="200" height="250"/>
@@ -43,14 +51,6 @@ Review:
 
 Duration: 2023-02-11 ~   
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22The+Programmer%27s+Brain%22+)  
-Review:  
-
-### 게임 프로그래머로 산다는 것
-
-<img src="https://user-images.githubusercontent.com/84510455/218236823-43ba5ebb-bdf1-4499-a66b-6d89e537f596.png" width="200" height="250"/>
-
-Duration: 2023-02-11 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EA%B2%8C%EC%9E%84+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A1%9C+%EC%82%B0%EB%8B%A4%EB%8A%94+%EA%B2%83%22+)  
 Review:  
 
 ### Effective C#
