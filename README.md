@@ -41,7 +41,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Game_Programmer/
 
 <img src="https://user-images.githubusercontent.com/84510455/227919695-c8fd167e-2a81-4634-8d4d-e8776ad6ba36.png" width="200" height="250"/>
 
-Duration: 2023-03-27 ~   
+Duration: 2023-03-27 ~ 2033-06-27  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+label%3A%22Fundamentals+of+Software+Architecture%22+)  
 Review:  
 
@@ -82,7 +82,7 @@ Review:
 <img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
 
 Duration: 2023-03-21 ~   
-History: 
+History:  
 Review:  
 
 ### 게임 프로그래밍 패턴  
