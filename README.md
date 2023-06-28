@@ -43,7 +43,15 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Game_Programmer/
 
 Duration: 2023-03-27 ~ 2033-06-27  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+label%3A%22Fundamentals+of+Software+Architecture%22+)  
-Review:  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_SoftwareArchitecture_101/)
+
+### Clean Code
+
+<img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
+
+Duration: 2023-03-21 ~ 2023-06-28 
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Clean+Code%22)
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)
 
 ### The Programmer's Brain(프로그래머의 뇌)
 
@@ -75,14 +83,6 @@ Review:
 
 Duration: 2023-03-14 ~   
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98+%EC%82%AC%EC%8B%A4%EA%B3%BC+%EC%98%A4%ED%95%B4%22)  
-Review:  
-
-### Clean Code
-
-<img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
-
-Duration: 2023-03-21 ~ 2023-06-28 
-History:  
 Review:  
 
 ### 게임 프로그래밍 패턴  
