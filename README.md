@@ -81,7 +81,7 @@ Review:
 
 <img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
 
-Duration: 2023-03-21 ~   
+Duration: 2023-03-21 ~ 2023-06-28 
 History:  
 Review:  
 
