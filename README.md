@@ -49,9 +49,9 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_SoftwareArchitec
 
 <img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
 
-Duration: 2023-03-21 ~ 2023-06-28 
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Clean+Code%22)
-Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)
+Duration: 2023-03-21 ~ 2023-06-28   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Clean+Code%22)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)  
 
 ### The Programmer's Brain(프로그래머의 뇌)
 
