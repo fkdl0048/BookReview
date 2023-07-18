@@ -173,6 +173,192 @@ class Mammal{
 }
 
 class Walkable{
-  
+  public void walk() { System.out.println("I am Walking"); }  
+}
+
+class Flyable{
+  public void fly() { System.out.println("I am Flying"); }
+}
+
+class Dog{
+  Mammal dog = new Mammal();
+  Walkable walkable = new Walkable();
+}
+
+class Bat{
+  Mammal bat = new Mammal();
+  Flyable flyable = new Flyable();
+}
+
+public class TestMammal{
+  public static void main(String[] args){
+
+    Dog fido = new Dog();
+    fido.dog.eat();
+    fido.walkable.walk();
+
+    Bat batty = new Bat();
+    batty.bat.eat();
+    batty.flyable.fly();
+  }
 }
 ```
+
+> **참고**  
+> 이번 예제는 상속 대신에 합성을 사용하는 방법을 설명하는 것이다.  
+> 설계에 상속을 전혀 사용할 수 없다는 의미가 아니다.  
+> 설계 단계에서 모든 포유류가 포식 행위를 한다고 했다면 앞처럼 eat() 메서드를 Mammal 클래스에 추가하는 것이 더 나은 설계일 수 있다.  
+> 항상 그렇듯이, 이게 설계 결정이다.  
+
+아마도 이 논의의 핵심은 앞서 다루었던 개념, 상속이 오히려 캡슐화를 깬다는 점일 것이다.  
+
+Mammal 클래스를 변경하게 되면 모든 Mammal 서브클래스를 다시 컴파일해야 하기 때문에 이런 측면을 쉽게 이해할 수 있다.
+
+이는 이와 같은 클래스들이 서로 밀접하게 결합되어 있으며, 클래스를 가능한 한 많이 분리한다는 목표에 반한다는 뜻이다.  
+
+합성의 예제에서 Whale 클래스를 추가한다고 해도 이전에 작성된 클래스 중 어느것도 다시 작성할 필요는 없다.
+
+만약 Swimmable이라는 클래스와 Whale이라는 클래스를 추가한다면 Swimmable 클래스를 Dolphin 클래스에 재사용할 수 있다.
+
+```java
+class Swimmable{
+  public void swim() { System.out.println("I am Swimming"); }
+}
+
+class Whale{
+  Mammal whale = new Mammal();
+  Swimmable swimmable = new Swimmable();
+}
+```
+
+기존 애플리케이션은 이전에 존재했던 클래스를 변경하지 않은 채로 이 기능을 추가할 수 있다.
+
+필자의 경험 법칙 중 한가지는 다형성이 꼭 필요한 상황에서만 상속을 사용하라는 것이다.
+
+Shape에서 상속된 Circles와 Rectangle은 상속을 합법적으로 사용하는 것일 수 있다.
+
+반면에, 걷기나 날기와 같은 행위는 상속에 대한 좋은 후보가 아닐 수 있다.
+
+*구현 상속/정의 상속 구분 그리고, 상속은 주로 데이터/모델링 상속, 행위는 주로 구현*
+
+합성을 사용해 이 솔루션을 구현했지만 설계에는 심각한 결함이 있다.
+
+new 키워드를 사용하는 것이 명백하기 때문에 객체가 강하게 묶여 있다.
+
+클래스를 분리하는 연습을 완료하기 위해 의존성 주입이라는 개념을 소개한다.
+
+[의존성 주입 정리글](https://fkdl0048.github.io/patterns/Patterns_DI/)
+
+간단하게 정리하여 객체를 생성하는 대신에 매개변수 목록을 통해 다른 객체 내부로 외부 객체를 주입한다는 뜻이다.
+
+#### 11.1.3. 의존성 주입
+
+이전 단원에 나온 예제에서는 합성을 통해 Dog에게 Wakeable 행위를 제공했다.  
+
+Dog클래스는 문자 그대로 다음 코드 조각과 같이 Dog 클래스 자체 내에 새로운 Walkable 객체를 만들었다.
+
+```java
+class Dog{
+  Walkable walkable = new Walkable();
+}
+```
+
+이것은 실제로 동작하지만, 클래스들은 여전히 서로 강하게 결합되어 있다.
+
+이전 예제에서 클래스를 완전히 분리하기 위해 앞에서 언급한 의존성 주입 개념을 구현해 본다.
+
+의존성 주입과 제어 역전의 원칙(IoC)은 종종 함께 다뤄진다.
+
+제어 역전에 대한 한 가지 정의는 다른 사람이 의존체를 인스턴스화해 전달하게 하는 것이다.
+
+이것을 바로 이번 예제에서 구현할 것이다.
+
+모든 포유류가 날고 걷고 헤엄치는 것은 아니기 때문에 분리과정을 위해 포유류의 행위를 나타내는 인터페이스를 만든다.
+
+```java
+interface IWalkable{
+  public void walk();
+}
+```
+
+이 인터페이스의 유일한 메서드는 walk()이며, 구현부를 제공하기 위해 구상 클래스에 남겨진다.
+
+```java
+class Dog extends Mammal implements IWalkable{
+  IWalkable walker;
+
+  public void setWalker(IWalkable walker){
+    this.walker = walker;
+  }
+
+  public void walk(){
+    walker.walk();
+  }
+}
+```
+
+Dog 클래스는 Mammal 클래스를 확장하고 IWalkable 인터페이스를 구현한다.
+
+또한 Dog 클래스는 의존성을 주입하는 메커니즘을 제공하는 참조 및 세터를 제공한다.
+
+```java
+IWalkable walker;
+
+public void setWalker(IWalkable walker){
+  this.walker = walker;
+}
+```
+
+간단하게 말해서 이것이 의존성 주입이다.
+
+Walkable 행위는 새 키워드를 사용해 Dog클래스 내에 작성되지 않는다.
+
+매개변수 목록을 통해 Dog클래스에 주입된다.
+
+```java
+class Mammal{
+  public void eat() { System.out.println("I am eating"); }
+}
+
+interface IWalkable{
+  public void walk();
+}
+
+class Dog extends Mammal implements IWalkable{
+  IWalkable walker;
+
+  public void setWalker(IWalkable walker){
+    this.walker = walker;
+  }
+
+  public void walk(){
+    walker.walk();
+  }
+
+  public class TestMammal{
+    public static void main(String[] args){
+      Walkable walker - new Walkable();
+      Dog fido = new Dog();
+      fido.setWalker(walker);
+      fido.eat();
+      fido.walk();
+    }
+  }
+}
+```
+
+이 예제에서는 세터를 사용해 의존성을 주입하지만 이 방법이 유일하지는 않다.
+
+*생성자를 통해서 주입하는 방법*
+
+### 11.2. 결론
+
+의존성 주입은 구현한 클래스의 구성을 클래스 의존체들의 구성으로부터 분리한다.  
+
+이는 매번 자신만의 것을 직접 제작하는 대신에 상품 진열대에서 무언가를 구입해오는 일과 같다.
+
+이게 상속과 합성에 대한 토론의 핵심이다.
+
+단순히 토론이라는 점에 유의해야 한다.(정답x)  
+
+스스로 상속과 합성에 대한 문제를 생각하고 설계에 반영해야 한다.
