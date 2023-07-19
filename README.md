@@ -53,6 +53,14 @@ Duration: 2023-03-21 ~ 2023-06-28
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Clean+Code%22)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)  
 
+### 객체지향 사고 프로세스 (The Object-Oriented Thought Process)
+
+<img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
+
+Duration: 2023-03-13 ~   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22The+Object-Oriented+Thought+Process%22)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Object-Oriented_Thought_Process/)  
+
 ### The Programmer's Brain(프로그래머의 뇌)
 
 <img src="https://user-images.githubusercontent.com/84510455/218236765-3048bb40-cb84-48f5-a56e-c8480938b0f1.png" width="200" height="250"/>
@@ -67,14 +75,6 @@ Review:
 
 Duration: 2023-02-20 ~   
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22Effective+C%23%22+)  
-Review:  
-
-### 객체지향 사고 프로세스 (The Object-Oriented Thought Process)
-
-<img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
-
-Duration: 2023-03-13 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22The+Object-Oriented+Thought+Process%22)  
 Review:  
 
 ### 객체지향의 사실과 오해  
