@@ -57,7 +57,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)
 
 <img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
 
-Duration: 2023-03-13 ~   
+Duration: 2023-03-13 ~ 2023-07-19  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22The+Object-Oriented+Thought+Process%22)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Object-Oriented_Thought_Process/)  
 
