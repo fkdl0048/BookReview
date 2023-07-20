@@ -99,3 +99,11 @@ Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 Duration: 2023-07-01 ~  
 History:  
 Review:  
+
+### Refactoring
+
+<img src="https://github.com/fkdl0048/ToDo/assets/84510455/fe8b97fb-86ab-4e7e-befe-1f2ceecb8fc7.png" width="200" height="250"/>
+
+Duration: 2023-07-20 ~  
+History:  
+Review:  
