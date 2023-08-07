@@ -96,7 +96,7 @@ Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/2bbcd9fd-db8d-4858-a9f1-2af1ea2a15a6.png" width="200" height="250"/>
 
 Duration: 2023-07-01 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ASoftSkills)
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ASoftSkills)  
 Review:  
 
 ### Refactoring
