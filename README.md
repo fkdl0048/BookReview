@@ -67,7 +67,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Object-Orien
 
 Duration: 2023-02-11 ~   
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22The+Programmer%27s+Brain%22+)  
-Review:  
+Review: [Blog](https://fkdl0048.github.io/bookreview/Programmer_Brain/)
 
 ### Effective C#
 
@@ -89,7 +89,6 @@ Review:
 
 <img src="https://user-images.githubusercontent.com/84510455/221360312-72ed471c-bee0-4c7f-86ce-4edf707e0b5b.png" width="200" height="250"/>
 
-Duration: 2022-08-15 ~   
 Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 
 ### Soft Skills
@@ -97,7 +96,7 @@ Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/2bbcd9fd-db8d-4858-a9f1-2af1ea2a15a6.png" width="200" height="250"/>
 
 Duration: 2023-07-01 ~  
-History:  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ASoftSkills)
 Review:  
 
 ### Refactoring
@@ -105,5 +104,21 @@ Review:
 <img src="https://github.com/fkdl0048/ToDo/assets/84510455/fe8b97fb-86ab-4e7e-befe-1f2ceecb8fc7.png" width="200" height="250"/>
 
 Duration: 2023-07-20 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ARefactoring)  
+Review:  
+
+### 함께 자라기(애자일로 가는 길)
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/8ffb7443-3ba0-42df-99e1-09e4ed80ff2c.png" width="200" height="250"/>
+
+Duration: 2023-08-07 ~  
+History:  
+Review:  
+
+### The Art of Game Design
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/678da318-d37f-49c7-aab1-f6157d9629e2.png" width="200" height="250"/>
+
+Duration: 2023-08-07 ~  
 History:  
 Review:  
