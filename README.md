@@ -65,7 +65,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Object-Orien
 
 <img src="https://user-images.githubusercontent.com/84510455/218236765-3048bb40-cb84-48f5-a56e-c8480938b0f1.png" width="200" height="250"/>
 
-Duration: 2023-02-11 ~   
+Duration: 2023-02-11 ~ 2023-08-07  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22The+Programmer%27s+Brain%22+)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/Programmer_Brain/)
 
