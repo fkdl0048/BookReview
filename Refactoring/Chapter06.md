@@ -1,8 +1,8 @@
-## 6. 기본적인 리팩터링
+## 1. 기본적인 리팩터링
 
 카탈로그의 첫머리는 가장 기본적이고 많이 사용해서 제일 먼저 배워야 하는 리팩터링들로 시작한다.
 
-### 6.1 함수 추출하기(Extract Function)
+### 1.1. 6.1 함수 추출하기(Extract Function)
 
 - 반대 리팩터링: 함수 인라인하기
 
@@ -34,7 +34,7 @@ void PrintDetails(double outstanding)
 }
 ```
 
-#### 배경
+#### 1.1.1. 배경
 
 함수 추출하기는 매우 많이 사용되는 리팩터링 중 하나로 코드 조각을 찾아 무슨 일을 하는지 파악한 다음, 독립된 함수로 추출하고 목적에 맞는 이름을 붙인다.
 
@@ -56,7 +56,7 @@ void PrintDetails(double outstanding)
 
 하지만 일단 요령을 터득한 후에는 별도 문서 없이 코드 자체만으로 내용을 충분히 설명되게 만들 수 있다.
 
-#### 절차
+#### 1.1.2. 절차
 
 - 함수를 새로 만들고 목적을 잘 드러내는 이름을 붙인다. ('어떻게'가 아닌 '**무엇을**' 하는지가 드러나야 한다.)
   - 대상 코드가 함수 호출문 하나처럼 매우 간단하더라도 함수로 뽑아서 목적이 더 잘 드러나는 이름을 붙일 수 있다면 추출한다.
@@ -74,17 +74,17 @@ void PrintDetails(double outstanding)
 - 다른 코드에 방금 추출한 것과 비슷한 코드가 없는지 살핀다. 있다면 방금 추출한 새 함수를 호출하도록 바꾼다.
   - 중복 혹은 비슷한 코드를 찾아주는 리팩터링 도구도 있다.
 
-#### 예시: 유효범위를 벗어나는 변수가 없을 때
+#### 1.1.3. 예시: 유효범위를 벗어나는 변수가 없을 때
 
 아주 간단한 코드여서 함수 추출하기가 쉽다. (해당 로직에서 완전 분리가 가능한 형태로 출력 -> 목적과 구현이 분리되어 있다.)
 
-#### 예시: 지역 변수를 사용할 때
+#### 1.1.4. 예시: 지역 변수를 사용할 때
 
 지역 변수와 관련하여 가장 간단한 경우는 변수를 사용하지만 다른 값을 다시 대입하지는 않을 때다.
 
 이 경우에는 지역 변수들을 그냥 매개변수로 넘기면 된다.
 
-#### 예시: 지역 변수의 값을 변경할 때
+#### 1.1.5. 예시: 지역 변수의 값을 변경할 때
 
 지역 변수에 값을 대입하게 되면 문제가 복잡해진다.
 
@@ -132,13 +132,13 @@ void PrintDetails(double outstanding)
 }
 ```
 
-#### 값을 반환할 변수가 여러 개라면?
+#### 1.1.6. 값을 반환할 변수가 여러 개라면?
 
 이 부분은 함수가 값 하나만 반환하는 방식이 좋은 코드에 가깝기 때문에 코드 자체를 재구성하는 방향으로 가는 것이 좋다.
 
 굳이 한 함수에서 여러 값을 반환해야 한다면 레코드나 튜플로 반환할 수 있지만 단계를 작게 나누고 작게 쪼개는 방식이 더 좋다.
 
-### 6.2 함수 인라인하기(Inline Function)
+### 1.2. 6.2 함수 인라인하기(Inline Function)
 
 - 반대 리팩터링: 함수 추출하기
 
@@ -161,7 +161,7 @@ double GetRating()
 }
 ```
 
-#### 배경
+#### 1.2.1. 배경
 
 책에서는 계속해서 목적이 분명하게 드러나는 이름의 짤막한 함수를 이용하기를 권한다.
 
@@ -179,7 +179,7 @@ double GetRating()
 
 간접 호출을 너무 과하게 쓰는 코드도 흔한 인라인 대상이다.
 
-#### 절차
+#### 1.2.2. 절차
 
 - 다형 메서드인지 확인한다.
   - 서브클래스에서 오버라이드하는 메서드는 인라인하면 안된다.
@@ -193,7 +193,7 @@ double GetRating()
 
 너무 복잡한 상황이라면 하지 않는 것이 바람직하다.
 
-#### 예시
+#### 1.2.3. 예시
 
 ```csharp
 double GetRating()
@@ -211,7 +211,7 @@ bool MoreThanFiveLateDeliveries()
 
 다른 예제로는 변수를 매개변수로 전달받아 참조하고 있는 경우가 있는데 이런 경우는 한 단계식 처리하는 것이 좋다.
 
-### 6.3 변수 추출하기(Extract Variable)
+### 1.3. 6.3 변수 추출하기(Extract Variable)
 
 - 반대 리팩터링: 변수 인라인하기
 
@@ -236,7 +236,7 @@ double Price()
 }
 ```
 
-#### 배경
+#### 1.3.1. 배경
 
 표현식이 너무 복잡해서 이해하기 어려울 때가 있다.
 
@@ -258,7 +258,7 @@ double Price()
 
 이름이 통용되는 문맥을 넓히면 다른 코드에서 사용할 수 있기 때문에 같은 표현식을 중복해서 작성하지 않아도 된다.
 
-#### 절차
+#### 1.3.2. 절차
 
 - 추출하려는 표현식에 부작용은 없는지 확인한다.
 - 불변 변수를 하나 선언하고 이름을 붙일 표현식의 복제본을 대입한다.
@@ -266,7 +266,7 @@ double Price()
 - 테스트한다.
 - 표현식을 여러 곳에서 사용한다면 각각을 새로 만든 변수로 교체한다. 하나 교체할 때마다 테스트한다.
 
-#### 예시
+#### 1.3.3. 예시
 
 ```csharp
 double Price()
@@ -299,7 +299,7 @@ double Price()
 
 중간 중간 변수를 치환하는 과정에서 테스트를 수행한다.
 
-#### 예시: 클래스 안에서
+#### 1.3.4. 예시: 클래스 안에서
 
 ```csharp
 class Order
@@ -354,7 +354,7 @@ class Order
 
 이 예처럼 간단한 경우라면 효과가 크지 않지만, 덩치가 큰 클래스에서 공통 동작을 별도 이름으로 뽑아내서 추상화해두면 그 객체를 다룰 때 쉽게 활용할 수 있어서 매우 유용하다.
 
-### 6.4 변수 인라인하기(Inline Variable)
+### 1.4. 6.4 변수 인라인하기(Inline Variable)
 
 - 반대 리팩터링: 변수 추출하기
 
@@ -367,7 +367,7 @@ return (basePrice > 1000);
 return (anOrder.BasePrice > 1000);
 ```
 
-#### 배경
+#### 1.4.1. 배경
 
 변수는 함수 안에서 표현식을 가리키는 이름으로 쓰이며, 대체로 긍정적인 효과를 준다.
 
@@ -377,7 +377,7 @@ return (anOrder.BasePrice > 1000);
 
 이럴 때는 변수를 인라인하는 것이 좋다.
 
-#### 절차
+#### 1.4.2. 절차
 
 - 대입문의 우변에서 부작용이 생기지는 않는지 확인한다.
 - 변수가 불변으로 선언되지 않았다면 불변으로 만든 후 테스트한다.
@@ -388,7 +388,7 @@ return (anOrder.BasePrice > 1000);
 - 변수 선언문과 대입문을 지운다.
 - 테스트한다.
 
-### 6.5 함수 선언 바꾸기(Change Function Declaration)
+### 1.5. 6.5 함수 선언 바꾸기(Change Function Declaration)
 
 - 다른 이름
   - 함수 이름 바꾸기
@@ -402,7 +402,7 @@ public double Circum(int radius) {...}
 public double CircumFerence(int radius) {...}
 ```
 
-#### 배경
+#### 1.5.1. 배경
 
 함수는 프로그램을 작은 부분으로 나누는 주된 수단이다.
 
@@ -430,7 +430,7 @@ public double CircumFerence(int radius) {...}
 
 물론 서술적이고 간단한 이름이 좋다는 것을 알고, 그 수준을 목표로 하지만 따라오는 코스트가 객체지향에 대한 이해와 영어의 전반적인 이해가 필요하다고 생각된다.
 
-#### 절차
+#### 1.5.2. 절차
 
 이 리팩터링은 약간 성격이 다르다.
 
@@ -442,7 +442,7 @@ public double CircumFerence(int radius) {...}
 
 호출하는 곳이 많거나, 호출 과정이 복잡하거나, 호출 대상이 다형 메서드거나, 선언이 복잡할 때는 이렇게 해야한다.
 
-##### 간단한 절차
+##### 1.5.2.1. 간단한 절차
 
 - 매개변수를 제거하려거든 먼저 함수 본문에서 제거 대상 매개변수를 참조하는 곳은 없는지 확인한다.
 - 메서드 선언을 원하는 형태로 바꾼다.
@@ -457,7 +457,7 @@ public double CircumFerence(int radius) {...}
 
 사람은 기본적으로 멀티에 약하고 하면 안된다. 각 단계를 작게 나누고 독립적으로 처리할 것
 
-##### 마이그레이션 절차
+##### 1.5.2.2. 마이그레이션 절차
 
 - 이어지는 추출 단계를 수월하게 만들어야 한다면 함수의 본문을 적절히 리팩터링한다.
 - 함수 본문을 새로운 함수로 추출한다.
@@ -468,7 +468,7 @@ public double CircumFerence(int radius) {...}
 - 이름을 임시로 붙여뒀다면 함수 선언 바꾸기를 통해 원래 이름으로 되돌린다.
 - 테스트한다.
 
-#### 예시: 함수 이름 바꾸기(간단한 절차)
+#### 1.5.3. 예시: 함수 이름 바꾸기(간단한 절차)
 
 ```csharp
 public double Circum(int radius) {...}
@@ -480,7 +480,7 @@ public double CircumFerence(int radius) {...}
 
 다음으로 Circum을 호출한 부분을 모두 찾아서 변경한다.(요즘은 IDE가 좋아져서 일괄 변경을 사용)
 
-#### 예시: 함수 이름 바꾸기(마이그레이션 절차)
+#### 1.5.4. 예시: 함수 이름 바꾸기(마이그레이션 절차)
 
 ```csharp
 public double Circum(int radius) {...}
@@ -498,7 +498,7 @@ API처럼 래퍼클래스와 같은 형태로 생각하면 좋다
 
 좀 더 안전한 방식, 폐기 예정을 생각하고 작업하는 방식
 
-#### 예시: 매개변수 추가하기
+#### 1.5.5. 예시: 매개변수 추가하기
 
 ```csharp
 public void AddReservation(Reservation reservation)
@@ -523,7 +523,7 @@ public void AddReservation(Reservation reservation, bool isPriority)
 
 우선순위 예약과 일반 예약의 함수를 따로 만들고 직접 호출하는 방식이 더 좋아보인다.
 
-#### 6.6 변수 캡슐화하기(Encapsulate Variable)
+#### 1.5.6. 6.6 변수 캡슐화하기(Encapsulate Variable)
 
 ```csharp
 public string Name;
@@ -538,7 +538,7 @@ public string Name
 }
 ```
 
-#### 배경
+#### 1.5.7. 배경
 
 리팩터링은 결국 프로그램의 요소를 조작하는 일이다.
 
@@ -560,7 +560,7 @@ public string Name
 
 객체지향에서 private을 항상 유지해야 한다고 하는 이유가 바로 여기에 있다.
 
-#### 절차
+#### 1.5.8. 절차
 
 - 변수로의 접근과 갱신을 전담하는 캡슐화 함수들을 만든다. (게터와 세터 C#은 프로퍼티라는 강력한 기능이 있다)
 - 정적 검사를 수행한다.
@@ -570,7 +570,7 @@ public string Name
 - 테스트한다.
 - 변수 값이 레코드라면 레코드 캡슐화하기를 적용할지 고려해본다.
 
-#### 예시
+#### 1.5.9. 예시
 
 이 부분은 C#의 좀 더 강력한 기능인 프로퍼티를 사용하면 된다.
 
@@ -594,7 +594,7 @@ set이나 get을 제한하고 싶다면 아래와 같이 사용
 public string Name { get; private set; }
 ```
 
-### 6.7 변수 이름 바꾸기(Rename Variable)
+### 1.6. 6.7 변수 이름 바꾸기(Rename Variable)
 
 ```csharp
 int a = height * width;
@@ -604,7 +604,7 @@ int a = height * width;
 int area = height * width;
 ```
 
-#### 배경
+#### 1.6.1. 배경
 
 명확한 프로그래밍의 핵심은 이름짓기다.
 
@@ -618,7 +618,7 @@ int area = height * width;
 
 맥락과 배경지식의 영역이 필요한 부분
 
-#### 절차
+#### 1.6.2. 절차
 
 - 폭넓게 쓰이는 변수라면 캡슐화를 고려한다.
 - 이름을 바꿀 변수를 참조하는 곳을 모두 찾아서, 하나씩 변경한다.
@@ -626,13 +626,13 @@ int area = height * width;
   - 변수 값이 변하지 않는다면 다른 이름으로 복제본을 만들어서 하나씩 점진적으로 변경한다. 하나씩 바꿀 때마다 테스트한다.
 - 테스트한다.
 
-#### 예시
+#### 1.6.3. 예시
 
 변수 이름 바꾸기의 가장 간단한 예는 임시 변수나 인수처럼 유효범위가 하나로 국한된 변수다.
 
 예시도 필요없고 단지 이름만 잘 지으면 된다.
 
-### 6.8 매개변수 객체 만들기(Introduce Parameter Object)
+### 1.7. 6.8 매개변수 객체 만들기(Introduce Parameter Object)
 
 ```csharp
 private void AmountInvoicedIn(Date start, Date end) {...}
@@ -646,7 +646,7 @@ private void AmountReceivedIn(DateRange range) {...}
 private void AmountOverdueIn(DateRange range) {...}
 ```
 
-#### 배경
+#### 1.7.1. 배경
 
 데이터 항목 여러 개가 이 함수에서 저 함수로 함께 몰려다니는 경우를 자주 본다.
 
@@ -666,7 +666,7 @@ private void AmountOverdueIn(DateRange range) {...}
 
 이 과정에서 **새로 만든 데이터 구조가 문제 영역을 훨씬 간결하게 표현하는 새로운 추상개념으로 격상**되면서, 코드의 개념적인 그림을 다시 그릴 수도 있다.
 
-#### 절차
+#### 1.7.2. 절차
 
 - 적당한 데이터 구조가 아직 마련되어 있지 않다면 새로 만든다.
   - 개인적으로 클래스를 만드는 것을 선호한다. 나중에 동작까지 함께 묶기 좋기 때문이다. 주로 값 객체로 만든다.
@@ -677,7 +677,7 @@ private void AmountOverdueIn(DateRange range) {...}
 - 기존 매개변수를 사용하던 코드를 새 데이터 구조의 원소를 사용하도록 바꾼다.
 - 다 바꿨다면 기존 매개변수를 제거한다.
 
-#### 예시
+#### 1.7.3. 예시
 
 온도 측정값 배열에서 정상 작동 범위를 벗어난 것이 있는지 검사하는 코드다.
 
@@ -779,7 +779,7 @@ public class Room
 }
 ```
 
-#### 진정한 값 객체로 거듭나기
+#### 1.7.4. 진정한 값 객체로 거듭나기
 
 진정한 값 객체는 클래스로 만들어 두고 이후에 관련 동작들을 해당 클래스로 옮길 수 있다는 이점이 생긴다.
 
@@ -805,7 +805,7 @@ public class TempRange
 }
 ```
 
-### 6.9 여러 함수를 클래스로 묶기(Combine Functions into Class)
+### 1.8. 6.9 여러 함수를 클래스로 묶기(Combine Functions into Class)
 
 ```csharp
 private void base(aReading) {...}
@@ -824,7 +824,7 @@ class Reading
 }
 ```
 
-#### 배경
+#### 1.8.1. 배경
 
 클래스는 대다수의 최신 언어가 지원하는 기본적인 빌딩 블록이다.
 
@@ -834,3 +834,224 @@ class Reading
 
 이 리팩터링은 이미 만들어진 함수들을 재구성할 때는 물론, 새로 만든 클래스와 관련하여 놓친 연산자를 찾아서 새 클래스의 메서드로 뽑아내는 데도 좋다.
 
+함수를 한데 묶는 또 다른 방법으로 `여러 함수를 변환 함수로 묶기`도 있다.
+
+둘 중 어느 방식으로 리팩터링을 진행할지는 프로그램의 문맥을 넓게 파악하고 정해야 한다.
+
+클래스로 묶는 경우는 클라이언트가 객체의 핵심 데이터를 변경할 수 있고, 파생 객체들을 일관되게 관리할 수 있다.
+
+이런 함수들은 중첩 함수들로 묶어도 되지만 클래스로 묶는 것이 더 좋다(확장성)
+
+#### 1.8.2. 절차
+
+- 함수들이 공유하는 공통 데이터 레코드를 캡슐화한다.
+  - 공통 데이터가 레코드 구조로 묶여 있지 않다면 먼저 매개변수 객체 만들기로 데이터를 하나로 묶는 레코드를 만든다.
+- 공통 레코드를 사용하는 함수 각각을 새 클래스로 옮긴다.
+  - 공통 레코드의 멤버는 함수 호출문의 인수 목록에서 제거한다.
+- 데이터를 조작하는 로직들은 함수로 추출해서 새 클래스로 옮긴다.
+
+#### 1.8.3. 예시
+
+```csharp
+public record Reading
+{
+    public int CustomerId { get; init; }
+    public int Quantity { get; init; }
+    public DateTime Date { get; init; }
+}
+
+public class ReadingCalculator
+{
+    private Reading _reading;
+
+    public ReadingCalculator(Reading reading)
+    {
+        _reading = reading;
+    }
+
+    public int Base()
+    {
+        return _reading.Quantity * 2;
+    }
+
+    public int TaxableCharge()
+    {
+        return Math.Max(0, _reading.Quantity - 100);
+    }
+
+    public int CalculateBaseCharge()
+    {
+        return _reading.Quantity * 2;
+    }
+}
+```
+
+내가 만든 예제에서 활용된 `record`는 C# 9.0에서 추가된 기능으로 **불변 데이터**를 쉽게 만들 수 있게 해준다.
+
+자세한 내용은 검색해서 참고!
+
+### 1.9. 6.10 여러 함수를 변환 함수로 묶기(Combine Functions into Transform)
+
+```csharp
+public int base(aReading) {...}
+public int taxableCharge(aReading) {...}
+```
+
+```csharp
+public Reading enrichReading(aReading) 
+{
+    const aReading = deepCopy(aReading);
+    aReading.baseCharge = base(aReading);
+    aReading.taxableCharge = taxableCharge(aReading);
+    return aReading;
+}
+```
+
+#### 1.9.1. 배경
+
+소프트웨어는 데이터를 입력받아서 여러 가지 정보를 도출하곤 한다.
+
+이렇게 도출된 정보는 여러 곳에서 사용될 수 있는데, 그러다 보면 이 정보가 사용되는 곳마다 같은 도출 로직이 반복되기도 한다.
+
+이런 작업을 한 곳에 모아두게 되면 검색과 갱신을 일관된 장소에서 처리할 수 있고 로직 중복도 막을 수 있다.
+
+이렇게 하기 위한 방법으로 변환 함수를 사용할 수 있다.
+
+변환 함수는 원본 데이터를 입력받아서 필요한 정보를 모두 도출한 뒤, 각각의 출력 데이터의 필드에 넣어 반환한다.
+
+이것의 클래스로 묶기와 차이점은 원본 데이터가 코드 안에서 갱신될 때는 클래스로 묶기를 사용하고, 원본 데이터가 갱신되지 않을 때는 변환 함수를 사용한다.
+
+#### 1.9.2. 절차
+
+- 변환할 레코드를 입력받아서 값을 그대로 반환하는 변환 함수를 만든다.
+  - 이 작업은 대체로 깊은 복사로 처리해야 한다. 반환 함수가 원본 레코드를 바꾸지 않는지 검사하는 테스트를 마련해두면 도움될 때가 많다.
+- 묶을 함수 중 하나를 골라서 본문 코드를 변환 함수로 옮기고, 처리 결과를 레코드에 새 필드로 기록한다. 그런 다음 클라이언트 코드가 이 필드를 사용하도록 수정한다.
+  - 로직이 복잡하면 함수 추출하기 부터 한다.
+- 테스트한다.
+- 나머지 관련 함수도 위 과정에 따라 처리한다.
+
+#### 1.9.3. 예시
+
+9번 예제와 비슷하여 패스
+
+### 1.10. 6.11 단계 쪼개기(Split Phase)
+
+```csharp
+const string[] orderData = orderString.Split(/\s+/);
+const int productPrice = priceList[orderData[0].Split("-")[1]];
+const int orderPrice = ParseInt(orderData[1]) * productPrice;
+```
+
+```csharp
+const Order order = new Order(orderString);
+const int orderPrice = order.Price(priceList);
+
+public class Order
+{
+    private string _data;
+
+    public Order(string data)
+    {
+        _data = data;
+    }
+
+    public int Price(Dictionary<string, int> priceList)
+    {
+        const string[] orderData = _data.Split(/\s+/);
+        const int productPrice = priceList[orderData[0].Split("-")[1]];
+        return ParseInt(orderData[1]) * productPrice;
+    }
+}
+```
+
+*이 부분은 변환이 생각보다 어렵다*
+
+#### 1.10.1. 배경
+
+서로 다른 두 대상을 한꺼번에 다루는 코드를 발견하면 각각의 별개의 모듈로 나누는 방법을 모색한다.
+
+코드를 수정해야 할 때 두 대상을 동시에 생각할 필요 없이 하나에만 집중하기 위해서다.
+
+분리하는 가장 간편한 방법은 동작을 연이은 두 단계로 쪼개는 것이다.
+
+입력이 처리 로직에 적합하지 않은 형태로 들어오는 경우를 예로 생각해보자. 이럴 때는 본 작업에 들어가기 전에 입력값을 다루기 편한 형태로 가공한다.
+
+아니면 순차적인 단계들로 분리해도 된다.
+
+가장 대표적인 예로 `컴파일러`다.
+
+기본적으로 어떤 텍스트를 입력받아 실행 가능한 형태로 변환하는데 이 과정이 순차적이라는 것
+
+각 단계는 자신만의 문제에 집중하기에 다른 단계에 관해서는 몰라도 이해할 수 있다.
+
+이렇게 단계를 쪼개는 기법은 주로 덩치 큰 소프트웨어에 적용된다.
+
+#### 1.10.2. 절차
+
+- 두 번째 단계에 해당하는 코드를 독립 함수로 추출한다.
+- 테스트한다.
+- 중간 데이터 구조를 만들어서 앞에서 추출한 함수의 인자로 추가한다.
+- 테스트한다.
+- 추출한 두 번째 단계 함수의 매개변수를 하나씩 검토한다. 그중 첫 번째 단계에서 사용되는 것은 중간 데이터 구조로 옮긴다. 하나씩 옮길 때마다 테스트한다.
+- 첫 번째 단계 코드를 함수로 추출하면서 중간 데이터 구조를 반환하도록 만든다.
+
+#### 1.10.3. 예시
+
+상품의 결제 금액을 계산하는 코드로 살펴본다.
+
+```csharp
+public int PriceOrder(Product product, int quantity, ShippingMethod shippingMethod)
+{
+    int basePrice = product.BasePrice * quantity;
+    int discount = Math.Max(quantity - product.DiscountThreshold, 0) * product.BasePrice * product.DiscountRate;
+    int shippingPerCase = (basePrice > shippingMethod.DiscountThreshold) ? shippingMethod.FeePerCase - 1 : shippingMethod.FeePerCase;
+    int shippingCost = quantity * shippingPerCase;
+    int price = basePrice - discount + shippingCost;
+    return price;
+}
+```
+
+코드를 살펴보면 계산이 두 단계로 이뤄지는데 앞 두줄은 상품 가격을 계산하고, 나머지는 배송비를 계산한다.
+
+- 먼저 배송비 계산부분을 함수로 추출한다.
+
+```csharp
+public int PriceOrder(Product product, int quantity, ShippingMethod shippingMethod)
+{
+    int basePrice = product.BasePrice * quantity;
+    int discount = Math.Max(quantity - product.DiscountThreshold, 0) * product.BasePrice * product.DiscountRate;
+    int price = basePrice - discount + ShippingCost(quantity, shippingMethod);
+    return price;
+}
+
+private int ShippingCost(int quantity, ShippingMethod shippingMethod)
+{
+    int shippingPerCase = (quantity > shippingMethod.DiscountThreshold) ? shippingMethod.FeePerCase - 1 : shippingMethod.FeePerCase;
+    int shippingCost = quantity * shippingPerCase;
+    return shippingCost;
+}
+```
+
+두 번째 단계에 필요한 데이터를 모두 개별 매개변수로 전달했다.
+
+실전에서는 이런 데이터가 상당히 많을 수 있는데, 어차피 나중에 걸러내기 때문에 문제없다.
+
+*여기서 말하는 걸러내기 작업은 두 가지 이상 리팩터링을 동시에 하지말고 우선 한가지에 집중하라는 것*
+
+- 다음으로 첫 번째 단계와 두 번째 단계가 주고받을 중간 데이터 구조를 만든다.
+
+뒤 두가지 예제는 따로 CodeReview에서 다룰 예정
+
+### 1.11. 느낀점
+
+논의사항으로 패스
+
+#### 1.11.1. 논의사항
+
+앞 3장에서 코드 스멜에 대해 이야기하면서 대부분 짧게 나왔던 내용을 다시 풀어서 예시와 자세한 설명이 있어서 좋았습니다..
+
+마찬가지로 한번에 다 읽고 이해하기 보다 필요할 때 찾아보기 좋을 것 같은 내용이네요!
+
+이런 부분도 읽고 넘기는게 아닌 실천이 가장 중요할 것 같습니다.
+
+**기본적인 리팩터링**에서 가장 많이 사용하시는 리팩터링은 무엇인가요?
