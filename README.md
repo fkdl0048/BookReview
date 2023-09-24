@@ -69,6 +69,14 @@ Duration: 2023-02-11 ~ 2023-08-07
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22The+Programmer%27s+Brain%22+)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/Programmer_Brain/)
 
+### Refactoring
+
+<img src="https://github.com/fkdl0048/ToDo/assets/84510455/fe8b97fb-86ab-4e7e-befe-1f2ceecb8fc7.png" width="200" height="250"/>
+
+Duration: 2023-07-20 ~ 2023-09-24
+History: [Issue]([https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ARefactoring](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+label%3ARefactoring+is%3Aclosed))  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Refactoring/)  
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
@@ -97,14 +105,6 @@ Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 
 Duration: 2023-07-01 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ASoftSkills)  
-Review:  
-
-### Refactoring
-
-<img src="https://github.com/fkdl0048/ToDo/assets/84510455/fe8b97fb-86ab-4e7e-befe-1f2ceecb8fc7.png" width="200" height="250"/>
-
-Duration: 2023-07-20 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ARefactoring)  
 Review:  
 
 ### 함께 자라기(애자일로 가는 길)
