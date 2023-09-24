@@ -73,7 +73,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/Programmer_Brain/)
 
 <img src="https://github.com/fkdl0048/ToDo/assets/84510455/fe8b97fb-86ab-4e7e-befe-1f2ceecb8fc7.png" width="200" height="250"/>
 
-Duration: 2023-07-20 ~ 2023-09-24
+Duration: 2023-07-20 ~ 2023-09-24  
 History: [Issue]([https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ARefactoring](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+label%3ARefactoring+is%3Aclosed))  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Refactoring/)  
 
