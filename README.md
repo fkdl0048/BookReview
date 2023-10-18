@@ -77,6 +77,14 @@ Duration: 2023-07-20 ~ 2023-09-24
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/132)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Refactoring/)  
 
+### The Clean Coder
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/409022b0-9133-416b-a46d-016dc511723f.png" width="200" height="250"/>
+
+Duration: 2023-10-14 ~  
+History:  
+Review:  
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
@@ -122,3 +130,5 @@ Review:
 Duration: 2023-08-07 ~  
 History:  
 Review:  
+
+
