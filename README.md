@@ -85,6 +85,14 @@ Duration: 2023-10-14 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/163)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_TheCleanCoder/)
 
+### 함께 자라기(애자일로 가는 길)
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/8ffb7443-3ba0-42df-99e1-09e4ed80ff2c.png" width="200" height="250"/>
+
+Duration: 2023-08-07 ~ 2023-12-05  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/143)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Growing_Up_Together/)  
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
@@ -113,14 +121,6 @@ Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 
 Duration: 2023-07-01 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aopen+label%3ASoftSkills)  
-Review:  
-
-### 함께 자라기(애자일로 가는 길)
-
-<img src="https://github.com/fkdl0048/BookReview/assets/84510455/8ffb7443-3ba0-42df-99e1-09e4ed80ff2c.png" width="200" height="250"/>
-
-Duration: 2023-08-07 ~  
-History:  
 Review:  
 
 ### The Art of Game Design
