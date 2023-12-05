@@ -113,6 +113,8 @@ Review:
 
 <img src="https://user-images.githubusercontent.com/84510455/221360312-72ed471c-bee0-4c7f-86ce-4edf707e0b5b.png" width="200" height="250"/>
 
+*게임 프로그래밍 패턴은 책을 읽고 공부하기보다 필요할 때 프로젝트에 적용해보고 해당 글을 정리하는 형식으로 진행*
+
 Review: [Blog](https://fkdl0048.github.io/categories/Patterns)
 
 ### Soft Skills
@@ -128,6 +130,14 @@ Review:
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/678da318-d37f-49c7-aab1-f6157d9629e2.png" width="200" height="250"/>
 
 Duration: 2023-08-07 ~  
+History:  
+Review:  
+
+### Algorithmic Problem Solving Strategies(알고리즘 문제 해결 전략)
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/ade0bc54-edd2-4492-8025-dd29c10efc10.png" width="200" height="250"/>
+
+Duration: 2023-12-05 ~  
 History:  
 Review:  
 
