@@ -184,7 +184,7 @@ void pick(int n, vector<int>& picked, int toPick) {
 
 ##### 구현
 
-- [Algorithm](https://github.com/fkdl0048/Algorithm/issues/14)
+- [Algorithm: 보글 문제](https://github.com/fkdl0048/Algorithm/issues/14)
 
 해당 이슈에 바인딩된 PR참고
 
