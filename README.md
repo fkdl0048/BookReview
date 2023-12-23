@@ -106,7 +106,23 @@ Review:
 <img src="https://user-images.githubusercontent.com/84510455/221360258-c680912d-8c08-4114-86ce-a28942c0fad8.png" width="200" height="250"/>
 
 Duration: 2023-12-10 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98+%EC%82%AC%EC%8B%A4%EA%B3%BC+%EC%98%A4%ED%95%B4%22)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/40)  
+Review:  
+
+### Algorithmic Problem Solving Strategies(알고리즘 문제 해결 전략)
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/ade0bc54-edd2-4492-8025-dd29c10efc10.png" width="200" height="250"/>
+
+Duration: 2023-12-05 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/188)  
+Review:  
+
+### Object
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/9cb58ab2-e1de-416f-829b-87f6d2eb4d5d.png" width="200" height="250"/>
+
+Duration:   
+History:  
 Review:  
 
 ### 게임 프로그래밍 패턴  
@@ -133,12 +149,6 @@ Duration: 2023-08-07 ~
 History:  
 Review:  
 
-### Algorithmic Problem Solving Strategies(알고리즘 문제 해결 전략)
 
-<img src="https://github.com/fkdl0048/BookReview/assets/84510455/ade0bc54-edd2-4492-8025-dd29c10efc10.png" width="200" height="250"/>
-
-Duration: 2023-12-05 ~  
-History:  
-Review:  
 
 
