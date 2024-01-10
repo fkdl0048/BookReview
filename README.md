@@ -109,6 +109,14 @@ Duration: 2023-12-10 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/40)  
 Review:  
 
+### The Psychology of Computer Programming
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/07221933-4fb9-47f4-b490-877fc8b36e76.png" width="200" height="250"/>
+
+Duration: 2024-01-10 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/201)  
+Review:  
+
 ### Algorithmic Problem Solving Strategies(알고리즘 문제 해결 전략)
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/ade0bc54-edd2-4492-8025-dd29c10efc10.png" width="200" height="250"/>
