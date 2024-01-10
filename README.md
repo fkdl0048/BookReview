@@ -81,7 +81,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Refactoring/)
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/409022b0-9133-416b-a46d-016dc511723f.png" width="200" height="250"/>
 
-Duration: 2023-10-14 ~ 2023-11-13
+Duration: 2023-10-14 ~ 2023-11-13  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/163)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_TheCleanCoder/)
 
