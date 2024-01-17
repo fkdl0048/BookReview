@@ -93,20 +93,20 @@ Duration: 2023-08-07 ~ 2023-12-05
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/143)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Growing_Up_Together/)  
 
+### 객체지향의 사실과 오해  
+
+<img src="https://user-images.githubusercontent.com/84510455/221360258-c680912d-8c08-4114-86ce-a28942c0fad8.png" width="200" height="250"/>
+
+Duration: 2023-12-10 ~ 2024-01-18  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/40)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookrevuew_Object-oriented_Facts_and_Misunderstandings/)
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
 
 Duration: 2023-02-20 ~   
 History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22Effective+C%23%22+)  
-Review:  
-
-### 객체지향의 사실과 오해  
-
-<img src="https://user-images.githubusercontent.com/84510455/221360258-c680912d-8c08-4114-86ce-a28942c0fad8.png" width="200" height="250"/>
-
-Duration: 2023-12-10 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/40)  
 Review:  
 
 ### The Psychology of Computer Programming
