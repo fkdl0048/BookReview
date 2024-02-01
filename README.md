@@ -129,8 +129,8 @@ Review:
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/9cb58ab2-e1de-416f-829b-87f6d2eb4d5d.png" width="200" height="250"/>
 
-Duration:   
-History:  
+Duration: 2024-02-01 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/209)  
 Review:  
 
 ### 게임 프로그래밍 패턴  
