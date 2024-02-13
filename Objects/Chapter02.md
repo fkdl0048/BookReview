@@ -114,4 +114,199 @@ class Screening
 - 외부에서의 접근을 통제할 수 있는 **접근 제어** 메커니즘도 함께 제공한다.
   - public, protected, private와 같은 **접근 수정자**를 제공한다.
 
-캡슐화와 접근 제어는 객체를 두 부분으로 나눈다. 하나는 외부에서 접근 가능한 부분으로 이를 **퍼블릭 인터페이스**라고 부른다.
+캡슐화와 접근 제어는 객체를 두 부분으로 나눈다. 하나는 외부에서 접근 가능한 부분으로 이를 **퍼블릭 인터페이스(public interface)**라고 부른다. 다른 하나는 외부에서는 접근 불가능하고 오직 내부에서만 접근 가능한 부분으로 이를 **구현(implementation)**이라고 부른다. (DIP원칙의 중요성은 뒤에서 다룸)
+
+##### 프로그래머의 자유
+
+프로그래머의 역할을 **클래스 작성자(class creator)**와 **클라이언트 프로그래머(client programmer)**로 구분하는 것이 유용하다. 클래스 작성자는 새로운 데이터 타입을 프로그램에 추가하고, 클라이언트 프로그래머는 클래스 작성자가 추사한 데이터 타입을 사용한다.
+
+클라이언트 프로그래머의 목표는 필요한 클래스들을 엮어서 애플리케이션을 빠르고 안정적으로 구축하는 것이다. 클래스 작성자는 필요한 부분만 공개하고 나머지는 꽁꽁 숨겨야 한다. 숨겨진 나머지 부분을 클라이언트 프로그래머가 접근하지 못함으로서 그에 대한 영향을 걱정하지 않고도 내부 구현을 마음대로 변경할 수 있다. 이를 **구현 은닉(implementation hiding)**이라고 부른다.
+
+접근 제어 메커니즘은 프로그래밍 언어 차원에서 클래스의 내부와 외부를 명확하게 경계 지을 수 있게 하는 동시에 클래스 작성자가 내부 구현을 은닉할 수 있게 해준다. 또한 클라이언트 프로그래머가 실수로 숨겨진 부분에 접근하는 것을 막아준다.
+
+객체의 외부와 내부를 구분하면 클라이언트 프로그래머가 알아야 할 지식의 양이 줄고(추상화) 클래스 작성자가 자유롭게 구현을 변경할 수 있는 폭이 넓어진다. 따라서 클래스를 개발할 때마다 인터페이스와 구현을 깔끔하게 분리하기 위해 노력해야 한다.
+
+설계가 필요한 이유는 변경을 관리하기 위해서라는 것을 기억하자. 객체지향 언어에서 객체 사이의 의존성을 적절히 관리함으로써 변경에 관리함으로써 변경에 대한 파급효과를 제어할 수 있는 다양한 방법을 제공한다. 객체의 변경을 관리할 수 있는 기법 중 가장 대표적인 것이 **접근 제어**이다.
+
+*앞서 다룬 캡슐화에 관한 내용으로 프로그래머의 역할로 바라봤다.*
+
+#### 협력하는 객체들의 공동체
+
+```cs
+class Screening
+{
+    public Resevation Reserve(Customer customer, int adienceCount)
+    {
+        return new Resevation(customer, this, CalculateFee(audienceCount), audienceCount);
+    }
+
+    private Money CalculateFee(int audienceCount)
+    {
+        return movie.CalculateFee(this).times(audienceCount);
+    }
+}
+```
+
+- `Screening`의 `Reserve()`메서드는 영화를 예매한 후 예매 정보를 담고 있는 `Reservation`의 인스턴스를 생성해서 반환한다.
+- `CalculateFee()`메서드는 요금을 계산하기 위해 다시 `Movie`의 `CalculateFee()`메서드를 호출한다.
+- `Movie`의 `CalculateFee()`는 1인당 예매 요금이다. 따라서 `Screening`은 전체 예매 요금을 구하기 위해 `CalculateFee()` 메서드의 반환값에 인원 수인 audienceCount를 곱한다.
+
+```cs
+class Money
+{
+    public static const Money ZERO = Money.Wons(0);
+
+    private const BigDecimal amount;
+
+    public static Money Wons(double amount) => return new Money(BigDecimal.valueOf(amount));
+    
+    public Money(BigDecimal amount)
+    {
+        this.amount = amount;
+    }
+
+    public Money Plus(Money amount)
+    {
+        return new Money(this.amount.add(amount.amount));
+    }
+
+    public Money Minus(Money amount)
+    {
+        return new Money(this.amount.subtract(amount.amount));
+    }
+
+    public Money Times(double percent)
+    {
+        return new Money(this.amount.multiply(BigDecimal.valueOf(percent)));
+    }
+
+    public bool IsLessThan(Money other)
+    {
+        return amount.compareTo(other.amount) < 0;
+    }
+
+    public bool IsGreaterThanOrEqual(Money other)
+    {
+        return amount.compareTo(other.amount) >= 0;
+    }
+}
+```
+
+객체지향의 장점은 객체를 이용해 도메인의 의미를 풍부하게 표현할 수 있다는 것이다. 따라서 의미를 좀 더 명시적이고 분명하게 표현할 수 있다면 객체를 사용해서 개념을 구현하는 것이 좋다. 그 개념이 비록 하나의 인스턴스 변수만을 포함하더라도 개념을 명시적으로 표현하는 것은 전체적인 설계의 명확성고 유연성을 높이는 방법이다.
+
+*비슷한 예로 인터페이스가 단일적으로 필요하더라도 선언하여 사용하는 것이 좋을 수 있다는 예가 있다.*
+
+```cs
+class Reservation
+{
+    private Customer customer;
+    private Screening screening;
+    private Money fee;
+    private int audienceCount;
+
+    public Reservation(Customer customer, Screening screening, Money fee, int audienceCount)
+    {
+        this.customer = customer;
+        this.screening = screening;
+        this.fee = fee;
+        this.audienceCount = audienceCount;
+    }
+}
+```
+
+영화를 예매하기 위해 `Screening`, `Moview`, `Reservation` 인스턴스들은 서로의 메서드를 호출하며 상호작용한다. 이 처럼 시스템의 어떤 기능을 구현하기 위해 객체들 사이에 이뤄지는 상호작용을 **협력(Collaboration)**이라고 부른다.
+
+객체지향 프로그램을 작성할 때는 먼저 협력의 관점에서 어떤 객체가 필요한지를 결정하고, 객체들의 공통 상태와 행위를 구현하기 위해 클래스를 작성한다.
+
+#### 협력에 관한 짧은 이야기
+
+앞에서 설명한 것처럼 객체의 내부 상태는 외부에서 접근하지 못하도록 감춰야 한다. 대신 외부에 공개 하는 퍼블릭 인터페이스를 통해 내부 상태에 접근할 수 있도록 허용한다. 객체는 다른 객체의 인터페이스에 공개된 행동을 수행하도록 **요청(request)**할 수 있다. 요청을 받는 객체는 자율적인 방법에 따라 요청을 처리한 후 **응답(response)**한다.
+
+- [협력에 관한 객체지향의 사실과 오해 관련 글](https://github.com/fkdl0048/BookReview/blob/main/Object-oriented_Facts_and_Misunderstandings/Chapter04.md#%ED%98%91%EB%A0%A5)
+
+객체가 다른 객체와 상호작용할 수 있는 유일한 방법은 **메시지를 전송(send a message)**하는 것뿐이다. 다른 객체에게 요청이 도착할 때 해당 객체가 **메시지를 수신(receive a message)**했다고 이야기한다. 메세지를 수신한 객체는 스스로의 결정에 따라 자율적으로 메세지를 처리할 방법을 결정한다. 이처럼 수신된 메시지를 처리하기 위한 자신만의 방법을 **메서드(method)**라고 부른다.
+
+**메세지와 메서드를 구분하는 것은 매우 중요하다.** 객체지향 패러다임이 유연하고, 확장 가능하며, 재사용 가능한 설계를 낳는다는 명성을 얻게 된 배경에는 메시지와 메서드를 명확하게 구분한 것도 단단히 한 몫한다. 뒤에서 나오지만 메세지와 메서드의 구분에서 **다형성(polymorphism)**의 개념이 출발한다.
+
+*지금까지는 Screening이 Movie의 CalculateMovie 메서드를 호출한다고 말했지만 사실은 Screening이 Movie에게 CalculateMovieFee 메시지를 전송한다라고 말하는 것이 더 적절한 표현이다. 사실 Screening은 Movie안에 CalculateMovieFee 메서드가 존재하고 있는지조차 알지 못한다.단지 Movie가 CalculateMovieFee메시지에 응답할 수 있다고 믿고 메시지를 전송할 뿐이다.*
+
+### 할인 요금 구하기
+
+#### 할인 요금 계산을 위한 협력 시작하기
+
+계속해서 예매 요금을 계산하는 협력을 알아보면, Movie는 제목, 상영시간, 기본요금, 할인 정책을 속성으로 가진다. 이 속성들의 값은 생성자를 통해 전달받는다.
+
+```cs
+class Movie
+{
+    private string title;
+    private Duration runningTime;
+    private Money fee;
+    private DiscountPolicy discountPolicy;
+
+    public Movie(string title, Duration runningTime, Money fee, DiscountPolicy discountPolicy)
+    {
+        this.title = title;
+        this.runningTime = runningTime;
+        this.fee = fee;
+        this.discountPolicy = discountPolicy;
+    }
+
+    public Money GetFee() => fee;
+    public Money CalculateMovieFee(Screening screening) => fee.minus(discountPolicy.CalculateDiscountAmount(screening));
+}
+```
+
+`CalculateMovieFee()`메서드는 `discountPolicy`에 `CalculateDiscountAmount`메시지를 전송해 할인 요금을 반환받는다. Movie는 기본요금인 fee에서 반환된 할인 요금을 차감한다.
+
+이 코드에서 중요한 점은 어떠한 할인 정책을 사용할 것인지에 대한 코드가 어디에도 존재하지 않는다. 도메인을 설명할 때 언급했던 것처럼 영화 예매 시스템에는 두 가지 종류의 할인 정책이 존재한다. 하나는 일정한 금액을 할인해주는 금액 할인 정책이고 다른 하나는 일정한 비율에 따라 할인해주는 비율 할인 정책이다.
+
+따라서 예매 요금을 계산하기 위해서는 현재 영화에 적용돼 있는 할인 정책의 종류를 판단할 수 있어야 한다. 하지만 코드 어디에도 할인 정책을 판단하는 코드는 존재하지 않는다. 단지 `DiscountPolicy`에게 메시지를 전송할 뿐이다.
+
+*여기서 바로 찾아낸다면 객체지향에 대한 기초는 있는 것이라 봐도 무방하지만 한번에 이해가 되지 않는다면 익숙하지 않은 것으로 봐야 한다.*
+
+이 코드에는 **상속**과 **다형성**이라는 개념이 숨어있고 그 기반은 **추상화**라는 원리가 숨겨져 있다.
+
+#### 할인 정책과 할인 조건
+
+할인 정책은 금액 할인 정책과 비율 할인 정책으로 구분된다. 두 가지 할인 정책을 각각 AmountDiscountPolicy와 PercentDiscountPolicy라는 클래스로 구현한다. 두 클래스는 대부분의 코드가 유사하고 할인 요금을 계산하는 방식만 족므 다르다. 따라서 두 클래스 사이의 중복 코드를 제거하기 위해 공통으로 코드를 보관할 장소가 필요하다.
+
+DiscountPolicy라는 추상 클래스를 만들어 두 클래스의 공통 코드를 이 클래스로 옮긴다.
+
+```cs
+abstract class DiscountPolicy
+{
+    private List<DiscountCondition> conditions = new();
+
+    public DiscountPolicy(params DiscountCondition[] conditions)
+    {
+        this.conditions = conditions.ToList();
+    }
+
+    public Money CalculateDiscountAmount(Screening screening)
+    {
+        foreach (var each in conditions)
+        {
+            if (each.IsSatisfiedBy(screening))
+            {
+                return GetDiscountAmount(screening);
+            }
+        }
+        return Money.ZERO;
+    }
+
+    protected abstract Money GetDiscountAmount(Screening screening);
+}
+```
+
+- `DiscountPolicy`는 `DiscountCondition`의 리스트인 `conditions`를 가지고 있기 때문에 하나의 할인 정책은 여러 개의 할인 조건을 포함할 수 있다. (다이어 그램에서 1..n의 관계)
+- `CalculateDiscountAmount`는 전체 할인 조건에 대해 차례대로 `DiscountCondition`의 `IsSatisfiedBy`메서드를 호출해 할인 조건을 만족하는지 검사한다. 만족하는 조건이 있다면 `GetDiscountAmount`를 호출해 할인 요금을 계산한다.
+
+이 과정은 추상 메서드(동적 바인딩)의 형태로 호출되어 동작한다. 실제로 요금 계산하는 부분은 추상 메서드인 `GetDiscountAmount` 메서드에게 위임한다. 실제 내부는 상속 받은 자식 클래스에서 오버라이딩한 메서드가 실행 될 것이다.
+
+이처럼 부모 클래스에 기본적인 알고리즘의 흐름을 구현하고 중간에 필요한 처리를 자식 클래스에게 위임하는 디자인 패턴을 **템플릿 메서드 패턴**이라고 부른다.
+
+`DiscountCondition`은 인터페이스를 이용하여 선언돼 있다. `IsSatisfiedBy`오퍼레이션은 인자로 전달된 screening이 할인이 가능한 경우 true를 반환하고 그렇지 않은 경우 false를 반환한다.
+
+반환값은 bool이지만 내부 구현은 이를 상속받은 클래스에서 구현할 것이다. 이는 **다형성**의 개념이다.
+
