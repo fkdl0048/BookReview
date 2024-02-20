@@ -165,6 +165,10 @@ Duration: 2024-02-06 ~
 History:  
 Review:  
 
+### 필독! 개발자 온보딩 가이드
 
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/b22f9399-0c03-466a-80da-be283c674cd3.png" width="200" height="250"/>
 
-
+Duration: 2024-02-20 ~  
+History:  
+Review:  
