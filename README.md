@@ -172,3 +172,12 @@ Review:
 Duration: 2024-02-20 ~  
 History:  
 Review:  
+
+### 엔터프라이즈 애플리케이션 아키텍처 패턴
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/76bfc566-7c75-4015-9528-4e4845393735.png" width="200" height="250"/>
+
+Duration: 2024-02-25 ~  
+History:  
+Review:  
+
