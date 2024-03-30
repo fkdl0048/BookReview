@@ -154,7 +154,7 @@ Review:
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/678da318-d37f-49c7-aab1-f6157d9629e2.png" width="200" height="250"/>
 
 Duration: 2023-08-07 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/146)
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/146)  
 Review:  
 
 ### 이득우의 게임 수학
@@ -162,7 +162,7 @@ Review:
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/e34bb6bf-8750-4bb0-9a1a-3a01851d9176.png" width="200" height="250"/>
 
 Duration:  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/213) 
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/213)  
 Review:  
 
 ### 필독! 개발자 온보딩 가이드
@@ -170,7 +170,7 @@ Review:
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/b22f9399-0c03-466a-80da-be283c674cd3.png" width="200" height="250"/>
 
 Duration: 2024-02-20 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/216)
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/216)  
 Review:  
 
 ### 엔터프라이즈 애플리케이션 아키텍처 패턴
@@ -178,6 +178,6 @@ Review:
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/76bfc566-7c75-4015-9528-4e4845393735.png" width="200" height="250"/>
 
 Duration: 2024-02-25 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/223)
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/223)  
 Review:  
 
