@@ -109,6 +109,14 @@ Duration: 2024-01-10 ~ 2024-02-18
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/201)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Psychology_of_Computer_Programming/)
 
+### Object
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/9cb58ab2-e1de-416f-829b-87f6d2eb4d5d.png" width="200" height="250"/>
+
+Duration: 2024-02-01 ~ 2024-05-09  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/209)  
+Review:  
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
@@ -125,13 +133,7 @@ Duration: 2023-12-05 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/188)  
 Review:  
 
-### Object
 
-<img src="https://github.com/fkdl0048/BookReview/assets/84510455/9cb58ab2-e1de-416f-829b-87f6d2eb4d5d.png" width="200" height="250"/>
-
-Duration: 2024-02-01 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/209)  
-Review:  
 
 ### 게임 프로그래밍 패턴  
 
