@@ -109,6 +109,14 @@ Duration: 2024-01-10 ~ 2024-02-18
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/201)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Psychology_of_Computer_Programming/)
 
+### 배우는 법을 배우기(The Elements of Skill)
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/157babf8-a693-46ee-a17d-32ae18c1993e.png" width="200" height="250"/>
+
+Duration: 2024-04-04 ~ 2024-05-18  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/233)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The-Elements-of-Skill/)  
+
 ### Object
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/9cb58ab2-e1de-416f-829b-87f6d2eb4d5d.png" width="200" height="250"/>
@@ -182,13 +190,3 @@ Review:
 Duration: 2024-02-25 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/223)  
 Review:  
-
-
-### 배우는 법을 배우기(The Elements of Skill)
-
-<img src="https://github.com/fkdl0048/BookReview/assets/84510455/157babf8-a693-46ee-a17d-32ae18c1993e.png" width="200" height="250"/>
-
-Duration: 2024-04-04 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/233)  
-Review:  
-
