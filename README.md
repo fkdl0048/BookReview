@@ -143,7 +143,7 @@ Review:
 
 ### 모두의 네트워크
 
-<img src="https://github.com/user-attachments/assets/b74698dd-2fe1-45f9-8968-46c5772277e9.png" width="200" height="250"/>
+<img src="https://github.com/user-attachments/assets/934037c2-53a9-4284-9a40-e3aa37c3c141" width="200" height="250"/>
 
 Duration: 2024-07-24 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/268)  
@@ -151,7 +151,7 @@ Review:
 
 ### 개발자의 글쓰기
 
-<img src="https://github.com/user-attachments/assets/906b86de-d5ff-4f20-9c34-0b7392a65078.png" width="200" height="250"/>
+<img src="https://github.com/user-attachments/assets/2bc419fb-a657-44ca-a931-5a07045b123f" width="200" height="250"/>
 
 Duration: 2024-07-24 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/273)  
@@ -159,7 +159,7 @@ Review:
 
 ### Tidy First?
 
-<img src="https://github.com/user-attachments/assets/b103cac7-de9a-48ad-909a-06101ccd7827.png" width="200" height="250"/>
+<img src="https://github.com/user-attachments/assets/9d1767e7-1d75-45b4-beff-e8e47fb26612" width="200" height="250"/>
 
 Duration: 2024-07-24 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/270)  
@@ -167,7 +167,7 @@ Review:
 
 ### 고도 엔진 4 게임 개발 프로젝트
 
-<img src="https://github.com/user-attachments/assets/3e7b7873-1538-4159-8a3a-5b8fc34e14e6.png" width="200" height="250"/>
+<img src="https://github.com/user-attachments/assets/44f0b095-7fc7-4e15-bf74-0c2af24a1118" width="200" height="250"/>
 
 Duration: 2024-07-24 ~  
 History: [Issue](https://github.com/fkdl0048/Godot_Study/issues/3)  
