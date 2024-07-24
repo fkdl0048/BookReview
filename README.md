@@ -133,6 +133,46 @@ Duration: 2024-02-20 ~ 2024-07-24
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/216)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The-Missing-README/)  
 
+### 이득우의 게임 수학
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/e34bb6bf-8750-4bb0-9a1a-3a01851d9176.png" width="200" height="250"/>
+
+Duration: 2024-07-24 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/213)  
+Review:  
+
+### 모두의 네트워크
+
+<img src="https://github.com/user-attachments/assets/b74698dd-2fe1-45f9-8968-46c5772277e9.png" width="200" height="250"/>
+
+Duration: 2024-07-24 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/268)  
+Review:  
+
+### 개발자의 글쓰기
+
+<img src="https://github.com/user-attachments/assets/906b86de-d5ff-4f20-9c34-0b7392a65078.png" width="200" height="250"/>
+
+Duration: 2024-07-24 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/273)  
+Review:  
+
+### Tidy First?
+
+<img src="https://github.com/user-attachments/assets/b103cac7-de9a-48ad-909a-06101ccd7827.png" width="200" height="250"/>
+
+Duration: 2024-07-24 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/270)  
+Review:  
+
+### 고도 엔진 4 게임 개발 프로젝트
+
+<img src="https://github.com/user-attachments/assets/3e7b7873-1538-4159-8a3a-5b8fc34e14e6.png" width="200" height="250"/>
+
+Duration: 2024-07-24 ~  
+History: [Issue](https://github.com/fkdl0048/Godot_Study/issues/3)  
+Review:  
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
@@ -148,7 +188,6 @@ Review:
 Duration: 2023-12-05 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/188)  
 Review:  
-
 
 
 ### 게임 프로그래밍 패턴  
@@ -173,20 +212,4 @@ Review:
 
 Duration: 2023-08-07 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/146)  
-Review:  
-
-### 이득우의 게임 수학
-
-<img src="https://github.com/fkdl0048/BookReview/assets/84510455/e34bb6bf-8750-4bb0-9a1a-3a01851d9176.png" width="200" height="250"/>
-
-Duration:  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/213)  
-Review:  
-
-### 엔터프라이즈 애플리케이션 아키텍처 패턴
-
-<img src="https://github.com/fkdl0048/BookReview/assets/84510455/76bfc566-7c75-4015-9528-4e4845393735.png" width="200" height="250"/>
-
-Duration: 2024-02-25 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/223)  
 Review:  
