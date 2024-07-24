@@ -125,6 +125,14 @@ Duration: 2024-02-01 ~ 2024-05-09
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/209)  
 Review:  
 
+### 필독! 개발자 온보딩 가이드
+
+<img src="https://github.com/fkdl0048/BookReview/assets/84510455/b22f9399-0c03-466a-80da-be283c674cd3.png" width="200" height="250"/>
+
+Duration: 2024-02-20 ~ 2024-07-24  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/216)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The-Missing-README/)  
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
@@ -173,14 +181,6 @@ Review:
 
 Duration:  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/213)  
-Review:  
-
-### 필독! 개발자 온보딩 가이드
-
-<img src="https://github.com/fkdl0048/BookReview/assets/84510455/b22f9399-0c03-466a-80da-be283c674cd3.png" width="200" height="250"/>
-
-Duration: 2024-02-20 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/216)  
 Review:  
 
 ### 엔터프라이즈 애플리케이션 아키텍처 패턴
