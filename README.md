@@ -173,6 +173,14 @@ Duration: 2024-07-24 ~
 History: [Issue](https://github.com/fkdl0048/Godot_Study/issues/3)  
 Review:  
 
+### Effective C++
+
+<img src="https://github.com/user-attachments/assets/a84a26f5-d5c4-4ea8-825a-a0c53b532a23.png" width="200" height="250"/>
+
+Duration: 2024-09-02 ~   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/256)  
+Review:  
+
 ### Effective C#
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
