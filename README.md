@@ -175,7 +175,7 @@ Review:
 
 ### Effective C++
 
-<img src="https://github.com/user-attachments/assets/a84a26f5-d5c4-4ea8-825a-a0c53b532a23.png" width="200" height="250"/>
+<img src="https://github.com/user-attachments/assets/a84a26f5-d5c4-4ea8-825a-a0c53b532a23" width="200" height="250"/>
 
 Duration: 2024-09-02 ~   
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/256)  
