@@ -133,6 +133,14 @@ Duration: 2024-02-20 ~ 2024-07-24
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/216)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The-Missing-README/)  
 
+### 개발자의 글쓰기
+
+<img src="https://github.com/user-attachments/assets/2bc419fb-a657-44ca-a931-5a07045b123f" width="200" height="250"/>
+
+Duration: 2024-07-24 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/273)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_writingforDevlopers/)  
+
 ### 이득우의 게임 수학
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/e34bb6bf-8750-4bb0-9a1a-3a01851d9176.png" width="200" height="250"/>
@@ -147,14 +155,6 @@ Review:
 
 Duration: 2024-07-24 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/268)  
-Review:  
-
-### 개발자의 글쓰기
-
-<img src="https://github.com/user-attachments/assets/2bc419fb-a657-44ca-a931-5a07045b123f" width="200" height="250"/>
-
-Duration: 2024-07-24 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/273)  
 Review:  
 
 ### Tidy First?
