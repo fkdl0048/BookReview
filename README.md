@@ -169,9 +169,9 @@ Review:
 
 <img src="https://github.com/user-attachments/assets/44f0b095-7fc7-4e15-bf74-0c2af24a1118" width="200" height="250"/>
 
-Duration: 2024-07-24 ~  
+Duration: 2024-07-24 ~ 2024-10-09  
 History: [Issue](https://github.com/fkdl0048/Godot_Study/issues/3)  
-Review:  
+Review: [Blog](https://fkdl0048.github.io/categories/godot)  
 
 ### Effective C++
 
