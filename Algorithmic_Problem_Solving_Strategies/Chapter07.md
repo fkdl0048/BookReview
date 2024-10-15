@@ -253,3 +253,135 @@ int[] karatsuba(int[] a, int[] b) {
 우선 카라츠바 알고리즘의 수행 시간을 병합 단계와 기저 사례의 두 부분으로 나눈다. 병합 단계의 수행 시간은 addTo()와 subFrom()의 수행 시간에 지배되고, 기저 사례의 처리 시간은 multiply()의 수행 시간에 지배된다.
 
 먼저 기저 사례를 처리하는 데 드는 총 시간을 알아본다. 다 긴 숫자의 길이가 50자리보다 짧아지면 multiply()를 이용해 답을 계산하기로 했지만, 여기서는 편의를 위해 한 자리 숫자에 도달해야만 multiply()를 사용한다고 가정한다.
+
+### [예제: 쿼드 트리 뒤집기](https://algospot.com/judge/problem/read/QUADTREE#)
+
+대량의 좌표 데이터를 메모리 안에 압축해 저장하기 위해 사용하는 여러 기법 중 쿼트 트리(쿼드 트리)라는 것이 있다. *옥 트리도 있으며 쿼드 트리는 2D 게임에서 옥트리는 3D 게임에서 쓰인다.*
+
+가장 많이 쓰이는 예로는 흑백 이미지 압축에 많이 사용한다고 한다. 이미지를 4등분하여 각각의 부분이 모두 흑색이면 하나의 흑색으로 압축하고, 하나라도 흰색이면 하나의 흰색으로 압축한다. 이 과정을 분할 정복을 이용하면 된다.
+
+- 그림의 모든 픽셀이 검은 색이라면 크기에 관게없이 b로 압축
+- 그림의 모든 픽셀이 흰 색이라면 크기에 관계없이 w로 압축
+- 그렇지 않다면, 크기를 4등분하여 각각의 부분을 쿼드 트리 압축
+
+가장 쉽게 생각할 수 있는 접근법은 뒤집기 위해서 압축을 풀어서 실제 이미지를 얻고, 상하 반전을 한 뒤 다시 쿼드 트리를 압축하는 방법이 있다.
+
+#### 압축 풀고 분할하기
+
+```cpp
+char decompressed[MAX_SIZE][MAX_SIZE];
+void decompress(string::iterator& it, int y, int x, int size) {
+    char head = *(it++);
+    if (head == 'b' || head == 'w') {
+        for (int dy = 0; dy < size; ++dy)
+            for (int dx = 0; dx < size; ++dx)
+                decompressed[y+dy][x+dx] = head;
+    } else {
+        int half = size / 2;
+        decompress(it, y, x, half);
+        decompress(it, y, x+half, half);
+        decompress(it, y+half, x, half);
+        decompress(it, y+half, x+half, half);
+    }
+}
+```
+
+이 경우에는 2^20 * 2^20 크기의 이미지를 다루는 것이므로 거의 1테라바이트에 달하는 크기가 된다. 분할정복을 사용했지만 좀 더 효율적인 방법이 필요하다.
+
+#### 압축 다 풀지 않고 뒤집기
+
+이 경우에는 이미지를 뒤집은 결과를 곧장 생성하는 코드가 필요하다. 즉, 압축해제 과정 없이 이미지를 뒤집은 결과를 바로 출력할 수 있어야 한다.
+
+문제의 특징을 조금 살펴보면 사실 흰색이나 검은색으로 가득 찬, w나 b는 뒤집을 필요가 없다. 전체가 한 가지 색이 아닌 경우에만 이들을 병합하여 답을 얻어야 한다. 그림의 분할되기 전 즉 압축 상태에서 각각 상하로 뒤집은 결과를 얻고 이를 다시 합치면 된다.
+
+```cpp
+string reverse(string::iterator& it) {
+    char head = *it;
+    ++it;
+    if (head == 'b' || head == 'w')
+        return string(1, head);
+    string upperLeft = reverse(it);
+    string upperRight = reverse(it);
+    string lowerLeft = reverse(it);
+    string lowerRight = reverse(it);
+    return string("x") + lowerLeft + lowerRight + upperLeft + upperRight;
+}
+```
+
+### [예제: 울타리 잘라내기](https://algospot.com/judge/problem/read/FENCE#)
+
+이 문제는 N개의 나무 판자를 붙여 세운 울타리가 있다. 울타리를 재구성하기 위해 가장 큰 정사각형을 만드는 문제이다.
+
+최대값을 구하는 문제이기 때문에 무식하게 풀이는 가능하지만 성능에 제한이 있기 때문에 분할 정복을 사용해야 한다.
+
+#### 무식하게 풀기
+
+```cpp
+int bruteForce(const vector<int>& h) {
+    int ret = 0;
+    int N = h.size();
+    for (int left = 0; left < N; ++left) {
+        int minHeight = h[left];
+        for (int right = left; right < N; ++right) {
+            minHeight = min(minHeight, h[right]);
+            ret = max(ret, (right - left + 1) * minHeight);
+        }
+    }
+    return ret;
+}
+```
+
+#### 분할 정복을 이용한 풀이
+
+분할 정복 알고리즘에 맞게 설계하기 위해선 n개의 판자를 절반으로 나눠 두 개의 부분 문제를 만든다. 그렇다면 찾는 최대 직사각형은 세 가지 중 하나에 속한다.
+
+- 가장 큰 직사각형을 왼쪽 부분 문제에서만 잘라낼 수 있다.
+- 가장 큰 직사각형은 오른쪽 부분 문제에서만 잘라낼 수 있다.
+- 가장 큰 직사각형은 왼쪽 문제와 오른쪽 부분 문제에 걸쳐 있다.
+
+이렇게 3번 째의 경우만 답을 구할 수 있으면 분할정복의 기본 아이디어를 적용할 수 있다.
+
+```cpp
+int solve(const vector<int>& h, int left, int right) {
+    if (left == right) return h[left];
+    int mid = (left + right) / 2;
+    int ret = max(solve(h, left, mid), solve(h, mid+1, right));
+    int lo = mid, hi = mid + 1;
+    int height = min(h[lo], h[hi]);
+    ret = max(ret, height * 2);
+    while (left < lo || hi < right) {
+        if (hi < right && (lo == left || h[lo-1] < h[hi+1])) {
+            ++hi;
+            height = min(height, h[hi]);
+        } else {
+            --lo;
+            height = min(height, h[lo]);
+        }
+        ret = max(ret, height * (hi - lo + 1));
+    }
+    return ret;
+}
+```
+
+### [예제: 팬미팅](https://algospot.com/judge/problem/read/FANMEETING#)
+
+팬미팅에서 멤버들과 팬들이 만나서 포옹을 하는데, 멤버들은 팬들보다 훨씬 크다. 멤버들과 팬들이 포옹을 하는 순간이 몇 번인지 구하는 문제이다.
+
+#### 곱셈으로 변형
+
+이 문제를 푸는 방법은 앞서 적용한 카라츠바의 곱셍을 이용하면 매우 쉽게 풀린다.
+
+```cpp
+int hugs(const string& members, const string& fans) {
+    int N = members.size(), M = fans.size();
+    vector<int> A(N), B(M);
+    for (int i = 0; i < N; ++i) A[i] = (members[i] == 'M');
+    for (int i = 0; i < M; ++i) B[M-i-1] = (fans[i] == 'M');
+    vector<int> C = karatsuba(A, B);
+    int allHugs = 0;
+    for (int i = N-1; i < M; ++i)
+        if (C[i] == 0)
+            ++allHugs;
+    return allHugs;
+}
+```
