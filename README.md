@@ -141,6 +141,14 @@ Duration: 2024-07-24 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/273)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_writingforDevlopers/)  
 
+### Do it! 알고리즘 코딩테스트 - C++ 
+
+<img src="https://github.com/user-attachments/assets/d86171d0-4c88-4bf0-99b1-0dff46e1de80" width="200" height="250"/>
+
+Duration: 2024-10-15 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/304)  
+Review:  
+
 ### 이득우의 게임 수학
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/e34bb6bf-8750-4bb0-9a1a-3a01851d9176.png" width="200" height="250"/>
