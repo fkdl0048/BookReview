@@ -68,3 +68,52 @@ void DFS(int v)
 }
 ```
 
+### 신기한 소수 찾기
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void DFS(int number, int jarisu);
+bool isPrime(int number);
+static int N;
+
+int main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
+
+	cin >> N;
+
+	DFS(2, 1);
+	DFS(3, 1);
+	DFS(5, 1);
+	DFS(7, 1);
+}
+
+void DFS(int number, int jarisu) {
+	if (jarisu == N) {
+		cout << number << '\n';
+		return;
+	}
+
+	for (int i = 1; i <= 9; i += 2) {
+		int next = number * 10 + i;
+		if (isPrime(next))
+			DFS(next, jarisu + 1);
+	}
+}
+
+bool isPrime(int number) {
+	if (number == 1)
+		return false;
+
+	for (int i = 2; i * i <= number; i++) {
+		if (number % i == 0)
+			return false;
+	}
+
+	return true;
+}
+```
+
