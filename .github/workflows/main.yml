@@ -19,7 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           ISSUE_URL: ${{ github.event.issue.html_url }}
         run: |
-          gh issue edit $ISSUE_URL --add-label "2024"
+          gh issue edit $ISSUE_URL --add-label "2025"
       - env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           ISSUE_URL: ${{ github.event.issue.html_url }}
