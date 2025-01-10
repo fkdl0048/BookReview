@@ -237,3 +237,11 @@ Review:
 Duration: 2023-08-07 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/146)  
 Review:  
+
+### 타입으로 견고하게 다형성으로 유연하게
+
+<img src="https://github.com/user-attachments/assets/a37ad48b-6715-4941-8528-3c7f9b1d7111" width="200" height="250"/>
+
+Duration: 2025-01-10 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/343)  
+Review:  
