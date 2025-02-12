@@ -3,6 +3,8 @@ It's a repo that reads and organizes books
 
 [Why do you read books?](https://fkdl0048.github.io/bookreview/bookreview00/)  
 
+[책장](https://github.com/fkdl0048/BookReview/issues/365)
+
 ## BookList
 
 ### Apprenticeship_Patterns(프로그래머의 길, 멘토에게 묻다.)  
@@ -10,7 +12,7 @@ It's a repo that reads and organizes books
 <img src="https://user-images.githubusercontent.com/84510455/216817050-fc7ca957-bd35-4c23-9049-6634646ca167.png" width="200" height="250"/>
 
 Duration: 2023-01-04 ~ 2023-02-03  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3AApprenticeshipPatterns+)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/2)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview01/)  
 
 ### GoodCode,BadCode(좋은 코드, 나쁜 코드)  
@@ -18,7 +20,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview01/)
 <img src="https://user-images.githubusercontent.com/84510455/216817279-cad89fcb-051c-4575-ab0a-75394a122968.png" width="200" height="250"/>
 
 Duration: 2023-01-06 ~ 2023-02-20  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22GoodCodeBadCode%22)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/1)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_GoodCode,BadCode/)
 
 ### 실리콘밸리의 팀장들 (Radical_Candor)
@@ -26,7 +28,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_GoodCode,BadCode
 <img src="https://user-images.githubusercontent.com/84510455/221360407-6c94189e-d0b1-42dd-a07e-56a206889a76.png" width="200" height="250"/>
 
 Duration: 2023-02-25 ~ 2023-03-22  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98+%ED%8C%80%EC%9E%A5%EB%93%A4%22+)   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/42)   
 Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)
 
 ### 게임 프로그래머로 산다는 것
@@ -34,7 +36,7 @@ Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)
 <img src="https://user-images.githubusercontent.com/84510455/218236823-43ba5ebb-bdf1-4499-a66b-6d89e537f596.png" width="200" height="250"/>
 
 Duration: 2023-02-11 ~ 2023-05-09  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22%EA%B2%8C%EC%9E%84+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A1%9C+%EC%82%B0%EB%8B%A4%EB%8A%94+%EA%B2%83%22+)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/18)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Game_Programmer/)  
 
 ### 소프트웨어 아키텍처101
@@ -42,7 +44,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Game_Programmer/
 <img src="https://user-images.githubusercontent.com/84510455/227919695-c8fd167e-2a81-4634-8d4d-e8776ad6ba36.png" width="200" height="250"/>
 
 Duration: 2023-03-27 ~ 2033-06-27  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+label%3A%22Fundamentals+of+Software+Architecture%22+)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/54)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_SoftwareArchitecture_101/)
 
 ### Clean Code
@@ -50,7 +52,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_SoftwareArchitec
 <img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
 
 Duration: 2023-03-21 ~ 2023-06-28   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Clean+Code%22)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/58)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)  
 
 ### 객체지향 사고 프로세스 (The Object-Oriented Thought Process)
@@ -58,7 +60,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)
 <img src="https://user-images.githubusercontent.com/84510455/219961251-512b623b-ec5a-4dbb-8c98-754f63c94316.png" width="200" height="250"/>
 
 Duration: 2023-03-13 ~ 2023-07-19  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22The+Object-Oriented+Thought+Process%22)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/36)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Object-Oriented_Thought_Process/)  
 
 ### The Programmer's Brain(프로그래머의 뇌)
@@ -66,7 +68,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Object-Orien
 <img src="https://user-images.githubusercontent.com/84510455/218236765-3048bb40-cb84-48f5-a56e-c8480938b0f1.png" width="200" height="250"/>
 
 Duration: 2023-02-11 ~ 2023-08-07  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22The+Programmer%27s+Brain%22+)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/16)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/Programmer_Brain/)
 
 ### Refactoring
@@ -202,7 +204,7 @@ Review:
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
 
 Duration: 2023-02-20 ~   
-History: [Issue](https://github.com/fkdl0048/BookReview/issues?q=is%3Aissue+is%3Aclose+milestone%3A%22Effective+C%23%22+)  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/33)  
 Review:  
 
 ### Algorithmic Problem Solving Strategies(알고리즘 문제 해결 전략)
@@ -244,4 +246,20 @@ Review:
 
 Duration: 2025-01-10 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/343)  
+Review:  
+
+### 하버드 인생학 특강
+
+<img src="https://github.com/user-attachments/assets/2fff1d77-eb75-40d8-8c3d-4de5a7911a93" width="200" height="250"/>
+
+Duration: 2025-02-12 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/364)  
+Review:  
+
+### 우리는 왜 게임을 하는가?
+
+<img src="https://github.com/user-attachments/assets/b1ef3663-542e-45a4-8ff9-fcd962d00ce6" width="200" height="250"/>
+
+Duration: 2025-02-12 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/366)  
 Review:  
