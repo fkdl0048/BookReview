@@ -1,4 +1,5 @@
 # BookReview
+
 It's a repo that reads and organizes books
 
 [Why do you read books?](https://fkdl0048.github.io/bookreview/bookreview00/)  
@@ -28,7 +29,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_GoodCode,BadCode
 <img src="https://user-images.githubusercontent.com/84510455/221360407-6c94189e-d0b1-42dd-a07e-56a206889a76.png" width="200" height="250"/>
 
 Duration: 2023-02-25 ~ 2023-03-22  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/42)   
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/42)
 Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)
 
 ### 게임 프로그래머로 산다는 것
@@ -51,7 +52,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_SoftwareArchitec
 
 <img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
 
-Duration: 2023-03-21 ~ 2023-06-28   
+Duration: 2023-03-21 ~ 2023-06-28
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/58)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)  
 
@@ -107,7 +108,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookrevuew_Object-oriented_
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/07221933-4fb9-47f4-b490-877fc8b36e76.png" width="200" height="250"/>
 
-Duration: 2024-01-10 ~ 2024-02-18   
+Duration: 2024-01-10 ~ 2024-02-18
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/201)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Psychology_of_Computer_Programming/)
 
@@ -125,7 +126,6 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The-Elements-of-
 
 Duration: 2024-02-01 ~ 2024-05-09  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/209)  
-Review:  
 
 ### 필독! 개발자 온보딩 가이드
 
@@ -139,11 +139,27 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The-Missing-READ
 
 <img src="https://github.com/user-attachments/assets/2bc419fb-a657-44ca-a931-5a07045b123f" width="200" height="250"/>
 
-Duration: 2024-07-24 ~  
+Duration: 2024-07-24 ~ 2024-09-28  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/273)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_writingforDevlopers/)  
 
-### Do it! 알고리즘 코딩테스트 - C++ 
+### 고도 엔진 4 게임 개발 프로젝트
+
+<img src="https://github.com/user-attachments/assets/44f0b095-7fc7-4e15-bf74-0c2af24a1118" width="200" height="250"/>
+
+Duration: 2024-07-24 ~ 2024-10-09  
+History: [Issue](https://github.com/fkdl0048/Godot_Study/issues/3)  
+Review: [Blog](https://fkdl0048.github.io/categories/godot)  
+
+### 타입으로 견고하게 다형성으로 유연하게
+
+<img src="https://github.com/user-attachments/assets/a37ad48b-6715-4941-8528-3c7f9b1d7111" width="200" height="250"/>
+
+Duration: 2025-01-10 ~ 2025-02-23  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/343)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Strongly-Typed,-Flexibly-Polymorphic/)
+
+### Do it! 알고리즘 코딩테스트 - C++
 
 <img src="https://github.com/user-attachments/assets/d86171d0-4c88-4bf0-99b1-0dff46e1de80" width="200" height="250"/>
 
@@ -175,19 +191,11 @@ Duration: 2024-07-24 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/270)  
 Review:  
 
-### 고도 엔진 4 게임 개발 프로젝트
-
-<img src="https://github.com/user-attachments/assets/44f0b095-7fc7-4e15-bf74-0c2af24a1118" width="200" height="250"/>
-
-Duration: 2024-07-24 ~ 2024-10-09  
-History: [Issue](https://github.com/fkdl0048/Godot_Study/issues/3)  
-Review: [Blog](https://fkdl0048.github.io/categories/godot)  
-
 ### Effective C++
 
 <img src="https://github.com/user-attachments/assets/a84a26f5-d5c4-4ea8-825a-a0c53b532a23" width="200" height="250"/>
 
-Duration: 2024-09-02 ~   
+Duration: 2024-09-02 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/256)  
 Review:  
 
@@ -195,15 +203,15 @@ Review:
 
 <img src="https://github.com/user-attachments/assets/6864c288-d0bf-4c73-a699-11e2bae8775e" width="200" height="250"/>
 
-Duration: 2023-09-28 ~   
+Duration: 2023-09-28 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/299)  
 Review:  
 
-### Effective C#
+### Effective C #
 
 <img src="https://user-images.githubusercontent.com/84510455/219881888-8f3c7fa2-7e62-4400-b11b-5c0ef9138733.png" width="200" height="250"/>
 
-Duration: 2023-02-20 ~   
+Duration: 2023-02-20 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/33)  
 Review:  
 
@@ -214,7 +222,6 @@ Review:
 Duration: 2023-12-05 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/188)  
 Review:  
-
 
 ### 게임 프로그래밍 패턴  
 
@@ -238,14 +245,6 @@ Review:
 
 Duration: 2023-08-07 ~  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/146)  
-Review:  
-
-### 타입으로 견고하게 다형성으로 유연하게
-
-<img src="https://github.com/user-attachments/assets/a37ad48b-6715-4941-8528-3c7f9b1d7111" width="200" height="250"/>
-
-Duration: 2025-01-10 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/343)  
 Review:  
 
 ### 하버드 인생학 특강
