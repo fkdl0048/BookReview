@@ -29,8 +29,8 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_GoodCode,BadCode
 <img src="https://user-images.githubusercontent.com/84510455/221360407-6c94189e-d0b1-42dd-a07e-56a206889a76.png" width="200" height="250"/>
 
 Duration: 2023-02-25 ~ 2023-03-22  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/42)
-Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/42)  
+Review:  [Blog](https://fkdl0048.github.io/bookreview/bookreview_RadicalCandor/)  
 
 ### 게임 프로그래머로 산다는 것
 
@@ -52,7 +52,7 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_SoftwareArchitec
 
 <img src="https://user-images.githubusercontent.com/84510455/228606796-cccdec49-40db-4604-9872-68d5a188b085.png" width="200" height="250"/>
 
-Duration: 2023-03-21 ~ 2023-06-28
+Duration: 2023-03-21 ~ 2023-06-28  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/58)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_CleanCode/)  
 
@@ -108,9 +108,9 @@ Review: [Blog](https://fkdl0048.github.io/bookreview/bookrevuew_Object-oriented_
 
 <img src="https://github.com/fkdl0048/BookReview/assets/84510455/07221933-4fb9-47f4-b490-877fc8b36e76.png" width="200" height="250"/>
 
-Duration: 2024-01-10 ~ 2024-02-18
+Duration: 2024-01-10 ~ 2024-02-18  
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/201)  
-Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Psychology_of_Computer_Programming/)
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_The_Psychology_of_Computer_Programming/)  
 
 ### 배우는 법을 배우기(The Elements of Skill)
 
