@@ -159,6 +159,15 @@ Duration: 2025-01-10 ~ 2025-02-23
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/343)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Strongly-Typed,-Flexibly-Polymorphic/)
 
+### Domain Driven Design Quickly
+
+<img src="https://github.com/user-attachments/assets/b953e4e7-d663-4475-a642-96a4fac8d4e7" width="200" height="250"/>
+
+Duration: 2025-02-28 ~ 2025-04-02  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/393#issue-2886335126)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Domain-Driven-Design-Quickly/)
+
+
 ### Do it! 알고리즘 코딩테스트 - C++
 
 <img src="https://github.com/user-attachments/assets/d86171d0-4c88-4bf0-99b1-0dff46e1de80" width="200" height="250"/>
