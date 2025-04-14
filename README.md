@@ -167,6 +167,13 @@ Duration: 2025-02-28 ~ 2025-04-02
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/393#issue-2886335126)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Domain-Driven-Design-Quickly/)
 
+### Game Engine Black Book: DOOM  
+
+<img src="https://github.com/user-attachments/assets/2df8a342-affb-42e1-9c89-fa227e81cdfe" width="200" height="250"/>
+
+Duration: 2025-02-23 ~ 2025-04-14  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/384)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Game-Engine-Black-Book-DOOM/)  
 
 ### Do it! 알고리즘 코딩테스트 - C++
 
@@ -272,10 +279,3 @@ Duration: 2025-02-12 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/366)  
 Review:  
 
-### Game Engine Black Book: DOOM  
-
-<img src="https://github.com/user-attachments/assets/2df8a342-affb-42e1-9c89-fa227e81cdfe" width="200" height="250"/>
-
-Duration: 2025-02-23 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/384)  
-Review:  
