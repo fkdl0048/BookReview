@@ -175,6 +175,14 @@ Duration: 2025-02-23 ~ 2025-04-14
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/384)  
 Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_Game-Engine-Black-Book-DOOM/)  
 
+### A Tour of C++ Third Edition
+
+<img src="https://github.com/user-attachments/assets/094105c4-ce80-4619-a237-9694e93ef135" width="200" height="250"/>
+
+Duration: 2025-05-08 ~ 2025-08-07
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/401)  
+Review: [Blog](https://fkdl0048.github.io/bookreview/bookreview_A-Tour-of-C++-Third-Edition/)
+
 ### Do it! 알고리즘 코딩테스트 - C++
 
 <img src="https://github.com/user-attachments/assets/d86171d0-4c88-4bf0-99b1-0dff46e1de80" width="200" height="250"/>
@@ -279,10 +287,3 @@ Duration: 2025-02-12 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/366)  
 Review:  
 
-### A Tour of C++ Third Edition
-
-<img src="https://github.com/user-attachments/assets/094105c4-ce80-4619-a237-9694e93ef135" width="200" height="250"/>
-
-Duration: 2025-05-08 ~  
-History: [Issue](https://github.com/fkdl0048/BookReview/issues/401)  
-Review:  
