@@ -287,3 +287,11 @@ Duration: 2025-02-12 ~
 History: [Issue](https://github.com/fkdl0048/BookReview/issues/366)  
 Review:  
 
+### 레트롤 게임 개발 바이블
+
+<img src="https://github.com/user-attachments/assets/70cc8b7d-7b55-4f75-b58b-8f544393755c" width="200" height="250"/>
+
+Duration: 2025-09-03 ~  
+History: [Issue](https://github.com/fkdl0048/BookReview/issues/422)  
+Review:  
+
